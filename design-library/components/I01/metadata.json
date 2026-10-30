@@ -1,0 +1,122 @@
+{
+  "id": "I01",
+  "name": "标题／内容／说明分区卡片",
+  "category": "information",
+  "subtype": "",
+  "frameMm": [
+    178,
+    115
+  ],
+  "contentFrameMm": [
+    176,
+    113
+  ],
+  "opticalSafeInsetMm": 1,
+  "useWhen": "一组说明需要共同边界，且附有适用对象或来源。",
+  "contentCapacity": "标题一行；3 项短内容；说明一行。",
+  "slots": [
+    "titleZh",
+    "titleEn",
+    "items[3]",
+    "footerNote"
+  ],
+  "geometry": {
+    "insetMm": 8,
+    "sections": [
+      "header",
+      "content",
+      "footer"
+    ]
+  },
+  "demoData": null,
+  "nativeMapping": {
+    "status": "not-tested",
+    "text": "native TextFrame/Story from complete paragraphs",
+    "geometry": "native rectangles/ellipses where supported",
+    "complexVectors": "linked SVG, vector internal path editing separate",
+    "photographs": "linked original image and native frame/crop",
+    "limits": "CSS effects and new component mapping require representative native verification"
+  },
+  "parameters": {
+    "cssVariables": [
+      "--ag-blue",
+      "--ag-deep",
+      "--ag-aqua",
+      "--ag-copper",
+      "--ag-paper",
+      "--ag-ink"
+    ],
+    "contentEdit": "Replace slot text in component.html; keep complete paragraphs. Re-render and inspect before reuse."
+  },
+  "provenanceType": "adaptation",
+  "adaptationNotes": "Convert CardHeader/CardContent/CardFooter structure to static print sections; remove actions and framework runtime, convert space to mm.",
+  "sourceReferences": [
+    {
+      "sourceId": "shadcn",
+      "name": "shadcn/ui",
+      "commit": "02cad61166c4c20edbc8a3f71bd720eed4c1f49b",
+      "license": "MIT",
+      "doc": "https://ui.shadcn.com/docs/components/base/card",
+      "licenseFile": "sources/shadcn/LICENSE.md"
+    }
+  ],
+  "sampleContent": "Layout demonstration; values/copy are examples and are not inserted into client documents.",
+  "revision": 2,
+  "origin": {
+    "catalog": "local-v1",
+    "revision": 1,
+    "fragmentSha256": "b7fdc1a769d8b3394e62bfc0a91067db629028cba14503c775c22a9d4d03eb14",
+    "migrationDate": "2026-10-30"
+  },
+  "migrationChanges": [
+    "customer photos replaced with original generic SVG placeholders",
+    "customer labels removed",
+    "local variable font dependency removed",
+    "historical browser/geometry validation not inherited"
+  ],
+  "selection": {
+    "languages": [
+      "zh",
+      "bilingual"
+    ],
+    "itemCount": {
+      "min": 3,
+      "max": 3
+    },
+    "itemCountMeaning": "repeated information items",
+    "widthPolicy": "Demo dimensions only; adapt and recheck real content"
+  },
+  "tags": [
+    "information",
+    ""
+  ],
+  "status": "candidate",
+  "validation": {
+    "static": "run-check-command-for-current-result",
+    "browser": "pending-after-sanitization",
+    "native": "not-tested",
+    "userVisual": "pending"
+  },
+  "distribution": {
+    "scope": "shared-candidate",
+    "projectLicense": "MIT",
+    "sourceLicenses": [
+      "MIT"
+    ],
+    "includesCustomerAssets": false
+  },
+  "files": [
+    {
+      "path": "component.html",
+      "sha256": "330978282d461d528ff9148a3d14c18df169b3a4d6b47bb5c9f2ecb2dcd23bd3"
+    },
+    {
+      "path": "component.css",
+      "sha256": "1fd38eaaadb1ea1fb326e3c7346cba251679a717d59d8bba7e8ee3fddb26a618"
+    },
+    {
+      "path": "preview.html",
+      "sha256": "157f15f21e14d1f663e7e823f4f89519142e67007dc3000520236adca7123801"
+    }
+  ]
+}

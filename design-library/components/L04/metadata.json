@@ -1,0 +1,167 @@
+{
+  "id": "L04",
+  "name": "说明＋图表的资料跨页",
+  "category": "layouts",
+  "subtype": "data-spread",
+  "frameMm": [
+    420,
+    285
+  ],
+  "contentFrameMm": [
+    420,
+    285
+  ],
+  "opticalSafeInsetMm": 0,
+  "useWhen": "客户提供真实数据，需要同时说明比较与整体结构时。",
+  "contentCapacity": "一篇短导语＋两个有单位／图例／来源的数据组；不可从政策金额凭空生成比率。",
+  "slots": [
+    "section",
+    "titleZh",
+    "titleEn",
+    "intro",
+    "chartA",
+    "chartB",
+    "legends",
+    "dataSources",
+    "pageNumbers"
+  ],
+  "geometry": {
+    "pageMm": [
+      210,
+      285
+    ],
+    "spreadMm": [
+      420,
+      285
+    ],
+    "gutterAtMm": 210
+  },
+  "demoData": {
+    "kind": "demo",
+    "barValues": [
+      40,
+      32,
+      28
+    ],
+    "barLabels": [
+      "人才",
+      "技术",
+      "产业"
+    ],
+    "donutValues": [
+      48,
+      32,
+      20
+    ],
+    "donutLabels": [
+      "高校",
+      "企业",
+      "平台"
+    ],
+    "units": "%",
+    "datasetsAreDifferent": true
+  },
+  "nativeMapping": {
+    "status": "not-tested",
+    "text": "native TextFrame/Story from complete paragraphs",
+    "geometry": "native rectangles/ellipses where supported",
+    "complexVectors": "linked SVG, vector internal path editing separate",
+    "photographs": "linked original image and native frame/crop",
+    "limits": "CSS effects and new component mapping require representative native verification"
+  },
+  "parameters": {
+    "cssVariables": [
+      "--ag-blue",
+      "--ag-deep",
+      "--ag-aqua",
+      "--ag-copper",
+      "--ag-paper",
+      "--ag-ink"
+    ],
+    "contentEdit": "Replace slot text in component.html; keep complete paragraphs. Re-render and inspect before reuse."
+  },
+  "provenanceType": "adaptation",
+  "adaptationNotes": "Stat hierarchy, ring geometry and type scale recompose into two print pages; datasets are explicitly synthetic and separate.",
+  "sourceReferences": [
+    {
+      "sourceId": "mantine",
+      "name": "Mantine",
+      "commit": "e243f7f999b3250c0babe6c6aa6dba9bcb4aa836",
+      "license": "MIT",
+      "doc": "https://mantine.dev/core/timeline/",
+      "licenseFile": "sources/mantine/LICENSE"
+    },
+    {
+      "sourceId": "daisyui",
+      "name": "daisyUI",
+      "commit": "8c24218588f34a678f48df435950790b57ef2bf7",
+      "license": "MIT",
+      "doc": "https://daisyui.com/components/stat/",
+      "licenseFile": "sources/daisyui/LICENSE"
+    },
+    {
+      "sourceId": "radix",
+      "name": "Radix Themes",
+      "commit": "1faff10ac26ae17f09944d418c6949b93fc6b566",
+      "license": "MIT",
+      "doc": "https://www.radix-ui.com/themes/docs/theme/typography",
+      "licenseFile": "sources/radix/LICENSE"
+    }
+  ],
+  "sampleContent": "Layout demonstration; values/copy are examples and are not inserted into client documents.",
+  "revision": 2,
+  "origin": {
+    "catalog": "local-v1",
+    "revision": 1,
+    "fragmentSha256": "67fab4816a6476b9337fe99e3be50ac7180ca9fdba89c33cb4325ebd02bf213d",
+    "migrationDate": "2026-10-30"
+  },
+  "migrationChanges": [
+    "customer photos replaced with original generic SVG placeholders",
+    "customer labels removed",
+    "local variable font dependency removed",
+    "historical browser/geometry validation not inherited"
+  ],
+  "selection": {
+    "languages": [
+      "zh",
+      "bilingual"
+    ],
+    "itemCount": null,
+    "itemCountMeaning": "repeated information items",
+    "widthPolicy": "Demo dimensions only; adapt and recheck real content"
+  },
+  "tags": [
+    "layouts",
+    "data-spread"
+  ],
+  "status": "candidate",
+  "validation": {
+    "static": "run-check-command-for-current-result",
+    "browser": "pending-after-sanitization",
+    "native": "not-tested",
+    "userVisual": "pending"
+  },
+  "distribution": {
+    "scope": "shared-candidate",
+    "projectLicense": "MIT",
+    "sourceLicenses": [
+      "MIT"
+    ],
+    "includesCustomerAssets": false
+  },
+  "files": [
+    {
+      "path": "component.html",
+      "sha256": "ca28442f24b5564aa10d23c701be09e0a3f48ac9d26c3616b284f2a78fdfc549"
+    },
+    {
+      "path": "component.css",
+      "sha256": "9934bfe84e523869d1b7d5dd1b1d4144c8e26dc603f1f33725a8c3767c62fad8"
+    },
+    {
+      "path": "preview.html",
+      "sha256": "06abb79fcdd14645e4f1db8a21e7ef80acd9c4e76749c318ea6c35d91e630ef6"
+    }
+  ]
+}

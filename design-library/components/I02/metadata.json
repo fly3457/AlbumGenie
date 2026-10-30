@@ -1,0 +1,114 @@
+{
+  "id": "I02",
+  "name": "标签／内容对齐目录",
+  "category": "information",
+  "subtype": "",
+  "frameMm": [
+    178,
+    112
+  ],
+  "contentFrameMm": [
+    176,
+    110
+  ],
+  "opticalSafeInsetMm": 1,
+  "useWhen": "多个“标签—内容”信息对需要快速浏览。",
+  "contentCapacity": "3–6 行；标签 2–6 字，内容最多两行。",
+  "slots": [
+    "titleZh",
+    "titleEn",
+    "labelValuePairs"
+  ],
+  "geometry": {},
+  "demoData": null,
+  "nativeMapping": {
+    "status": "not-tested",
+    "text": "native TextFrame/Story from complete paragraphs",
+    "geometry": "native rectangles/ellipses where supported",
+    "complexVectors": "linked SVG, vector internal path editing separate",
+    "photographs": "linked original image and native frame/crop",
+    "limits": "CSS effects and new component mapping require representative native verification"
+  },
+  "parameters": {
+    "cssVariables": [
+      "--ag-blue",
+      "--ag-deep",
+      "--ag-aqua",
+      "--ag-copper",
+      "--ag-paper",
+      "--ag-ink"
+    ],
+    "contentEdit": "Replace slot text in component.html; keep complete paragraphs. Re-render and inspect before reuse."
+  },
+  "provenanceType": "adaptation",
+  "adaptationNotes": "Data-list label/value relationship rewritten in standalone HTML, with print widths and explicit alignment.",
+  "sourceReferences": [
+    {
+      "sourceId": "radix",
+      "name": "Radix Themes",
+      "commit": "1faff10ac26ae17f09944d418c6949b93fc6b566",
+      "license": "MIT",
+      "doc": "https://www.radix-ui.com/themes/docs/theme/typography",
+      "licenseFile": "sources/radix/LICENSE"
+    }
+  ],
+  "sampleContent": "Layout demonstration; values/copy are examples and are not inserted into client documents.",
+  "revision": 2,
+  "origin": {
+    "catalog": "local-v1",
+    "revision": 1,
+    "fragmentSha256": "2350a0edfde739a5f3ab4eb0c0cf12352ad93c9150f9cbc41e1ed52fa10cc8f4",
+    "migrationDate": "2026-10-30"
+  },
+  "migrationChanges": [
+    "customer photos replaced with original generic SVG placeholders",
+    "customer labels removed",
+    "local variable font dependency removed",
+    "historical browser/geometry validation not inherited"
+  ],
+  "selection": {
+    "languages": [
+      "zh",
+      "bilingual"
+    ],
+    "itemCount": {
+      "min": 3,
+      "max": 6
+    },
+    "itemCountMeaning": "repeated information items",
+    "widthPolicy": "Demo dimensions only; adapt and recheck real content"
+  },
+  "tags": [
+    "information",
+    ""
+  ],
+  "status": "candidate",
+  "validation": {
+    "static": "run-check-command-for-current-result",
+    "browser": "pending-after-sanitization",
+    "native": "not-tested",
+    "userVisual": "pending"
+  },
+  "distribution": {
+    "scope": "shared-candidate",
+    "projectLicense": "MIT",
+    "sourceLicenses": [
+      "MIT"
+    ],
+    "includesCustomerAssets": false
+  },
+  "files": [
+    {
+      "path": "component.html",
+      "sha256": "71442294f729093a038ec1c6df22ab7e51f8454c62e5cfd52731397161432356"
+    },
+    {
+      "path": "component.css",
+      "sha256": "2256ecad2c31b3e07db8e11aba4de5f0dc68e5dae0f0fe781249efb9c1886912"
+    },
+    {
+      "path": "preview.html",
+      "sha256": "54ac8251ebeb4e42582cd0a631e415d582868136e679863c5b5e09163f8842a9"
+    }
+  ]
+}

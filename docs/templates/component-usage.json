@@ -1,0 +1,31 @@
+{
+  "albumId": "<album-id>",
+  "designDirection": "<已确认的方向规划在本地的位置>",
+  "usages": [
+    {
+      "pageOrSpread": "<实际页码或跨页>",
+      "role": "<标题层级／板块角色>",
+      "componentId": "<ID 或 original-design>",
+      "revision": 1,
+      "sourceCatalog": "<shared 或 local-v1>",
+      "reason": "<内容语义、数量、容量和比例为何适合>",
+      "contentSourceIds": [],
+      "adaptations": {
+        "language": "<语种、是否允许英文装饰>",
+        "widthMm": null,
+        "palette": "<本册色板>",
+        "typography": "<本册字体与层级>",
+        "geometryChanges": [],
+        "photoAndCrop": []
+      },
+      "checks": {
+        "realContentPreview": "pending",
+        "nativeEditing": "not-tested",
+        "idmlRoundtrip": "not-tested",
+        "spreadReview": "pending",
+        "userVisualAcceptance": "pending"
+      },
+      "evidence": []
+    }
+  ]
+}

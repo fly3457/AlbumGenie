@@ -1,0 +1,118 @@
+{
+  "id": "D04",
+  "name": "三阶段语义流程",
+  "category": "diagrams",
+  "subtype": "process-relation",
+  "frameMm": [
+    178,
+    106
+  ],
+  "contentFrameMm": [
+    176,
+    104
+  ],
+  "opticalSafeInsetMm": 1,
+  "useWhen": "内容有先后关系或过程依据，不能用箭头猜测政策关联。",
+  "contentCapacity": "3–5 个阶段；阶段名 2–6 字，说明 1–2 行。",
+  "slots": [
+    "titleZh",
+    "titleEn",
+    "stageNames",
+    "stageDescriptions"
+  ],
+  "geometry": {
+    "connectors": "between named stages only",
+    "nodeWidthMm": 46
+  },
+  "demoData": null,
+  "nativeMapping": {
+    "status": "not-tested",
+    "text": "native TextFrame/Story from complete paragraphs",
+    "geometry": "native rectangles/ellipses where supported",
+    "complexVectors": "linked SVG, vector internal path editing separate",
+    "photographs": "linked original image and native frame/crop",
+    "limits": "CSS effects and new component mapping require representative native verification"
+  },
+  "parameters": {
+    "cssVariables": [
+      "--ag-blue",
+      "--ag-deep",
+      "--ag-aqua",
+      "--ag-copper",
+      "--ag-paper",
+      "--ag-ink"
+    ],
+    "contentEdit": "Replace slot text in component.html; keep complete paragraphs. Re-render and inspect before reuse."
+  },
+  "provenanceType": "adaptation",
+  "adaptationNotes": "Adapt horizontal timeline continuity to explicit named stages; SVG arrows only connect the stated sequence.",
+  "sourceReferences": [
+    {
+      "sourceId": "daisyui",
+      "name": "daisyUI",
+      "commit": "8c24218588f34a678f48df435950790b57ef2bf7",
+      "license": "MIT",
+      "doc": "https://daisyui.com/components/stat/",
+      "licenseFile": "sources/daisyui/LICENSE"
+    }
+  ],
+  "sampleContent": "Layout demonstration; values/copy are examples and are not inserted into client documents.",
+  "revision": 2,
+  "origin": {
+    "catalog": "local-v1",
+    "revision": 1,
+    "fragmentSha256": "ad99989cdbf1a5b70e7769748e024d50a24b2fe3919adff85509535caad135c6",
+    "migrationDate": "2026-10-30"
+  },
+  "migrationChanges": [
+    "customer photos replaced with original generic SVG placeholders",
+    "customer labels removed",
+    "local variable font dependency removed",
+    "historical browser/geometry validation not inherited"
+  ],
+  "selection": {
+    "languages": [
+      "zh",
+      "bilingual"
+    ],
+    "itemCount": {
+      "min": 3,
+      "max": 5
+    },
+    "itemCountMeaning": "repeated information items",
+    "widthPolicy": "Demo dimensions only; adapt and recheck real content"
+  },
+  "tags": [
+    "diagrams",
+    "process-relation"
+  ],
+  "status": "candidate",
+  "validation": {
+    "static": "run-check-command-for-current-result",
+    "browser": "pending-after-sanitization",
+    "native": "not-tested",
+    "userVisual": "pending"
+  },
+  "distribution": {
+    "scope": "shared-candidate",
+    "projectLicense": "MIT",
+    "sourceLicenses": [
+      "MIT"
+    ],
+    "includesCustomerAssets": false
+  },
+  "files": [
+    {
+      "path": "component.html",
+      "sha256": "f8648bb0f23717cb99b0952a025c3630beb098cf58d9af80912bfd402d69df20"
+    },
+    {
+      "path": "component.css",
+      "sha256": "1da9146065530f7873f54597179323e1164e0042e43f0d14b7405b2925bd2936"
+    },
+    {
+      "path": "preview.html",
+      "sha256": "07c91f02f3acae20bceb2538666de349172091b6e1af62cdce674fa7441780f1"
+    }
+  ]
+}

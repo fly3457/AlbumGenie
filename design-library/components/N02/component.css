@@ -1,0 +1,2 @@
+/* AlbumGenie static adaptation. Radix Themes MIT, commit 1faff10ac26ae17f09944d418c6949b93fc6b566. See sources/ for full notices. Changes: Use clear label and typographic scale, separate section identification and page folio. */
+.agl-N02 .at:nth-last-child(2){text-align:right}.agl-N02 .at:nth-last-child(2) .sub{font-size:25pt;color:var(--ag-blue)}

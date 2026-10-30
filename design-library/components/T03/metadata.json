@@ -1,0 +1,102 @@
+{
+  "id": "T03",
+  "name": "关键词并置标题",
+  "category": "titles",
+  "subtype": "",
+  "frameMm": [
+    178,
+    62
+  ],
+  "contentFrameMm": [
+    176,
+    60
+  ],
+  "opticalSafeInsetMm": 1,
+  "useWhen": "两个核心概念需要形成明确并置关系。",
+  "contentCapacity": "每个关键词 2–3 字；支持句一行。",
+  "slots": [
+    "keywordA",
+    "relationshipWord",
+    "keywordB",
+    "titleEn",
+    "supportingLine"
+  ],
+  "geometry": {},
+  "demoData": null,
+  "nativeMapping": {
+    "status": "not-tested",
+    "text": "native TextFrame/Story from complete paragraphs",
+    "geometry": "native rectangles/ellipses where supported",
+    "complexVectors": "linked SVG, vector internal path editing separate",
+    "photographs": "linked original image and native frame/crop",
+    "limits": "CSS effects and new component mapping require representative native verification"
+  },
+  "parameters": {
+    "cssVariables": [
+      "--ag-blue",
+      "--ag-deep",
+      "--ag-aqua",
+      "--ag-copper",
+      "--ag-paper",
+      "--ag-ink"
+    ],
+    "contentEdit": "Replace slot text in component.html; keep complete paragraphs. Re-render and inspect before reuse."
+  },
+  "provenanceType": "project-original",
+  "adaptationNotes": "",
+  "sourceReferences": [],
+  "sampleContent": "Layout demonstration; values/copy are examples and are not inserted into client documents.",
+  "revision": 2,
+  "origin": {
+    "catalog": "local-v1",
+    "revision": 1,
+    "fragmentSha256": "8be6a9e42280d0db4d1fd2cfab576e1078f2a2695fabdc93afcc136f18e3e16b",
+    "migrationDate": "2026-10-30"
+  },
+  "migrationChanges": [
+    "customer photos replaced with original generic SVG placeholders",
+    "customer labels removed",
+    "local variable font dependency removed",
+    "historical browser/geometry validation not inherited"
+  ],
+  "selection": {
+    "languages": [
+      "zh",
+      "bilingual"
+    ],
+    "itemCount": null,
+    "itemCountMeaning": "repeated information items",
+    "widthPolicy": "Demo dimensions only; adapt and recheck real content"
+  },
+  "tags": [
+    "titles",
+    ""
+  ],
+  "status": "candidate",
+  "validation": {
+    "static": "run-check-command-for-current-result",
+    "browser": "pending-after-sanitization",
+    "native": "not-tested",
+    "userVisual": "pending"
+  },
+  "distribution": {
+    "scope": "shared-candidate",
+    "projectLicense": "MIT",
+    "sourceLicenses": [],
+    "includesCustomerAssets": false
+  },
+  "files": [
+    {
+      "path": "component.html",
+      "sha256": "846f44b972a7e1f8b74c2527fe85ecffba754b975b4d48767d43ead52e6e9c24"
+    },
+    {
+      "path": "component.css",
+      "sha256": "6291a4ae6dfedfc647e1cf6c6120669f9aa4fee6bcbf175589b22203a8aab1ac"
+    },
+    {
+      "path": "preview.html",
+      "sha256": "6289798024bbaa93d00de4bd05f8e97d536bbcc6897d7ced7ddc315fe9469e4a"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "id": "E02",
+  "name": "数量色场＋五联内容",
+  "category": "emphasis",
+  "subtype": "",
+  "frameMm": [
+    178,
+    113
+  ],
+  "contentFrameMm": [
+    176,
+    111
+  ],
+  "opticalSafeInsetMm": 1,
+  "useWhen": "数量是核心，并且五项内容需要直接可见。",
+  "contentCapacity": "5 项，每项 4–8 字；长解释使用信息目录组件。",
+  "slots": [
+    "quantity",
+    "quantityLabel",
+    "items[5]"
+  ],
+  "geometry": {},
+  "demoData": {
+    "kind": "demo",
+    "quantity": 5,
+    "items": [
+      "人才汇聚",
+      "技术转化",
+      "产业协同",
+      "服务支撑",
+      "开放合作"
+    ]
+  },
+  "nativeMapping": {
+    "status": "not-tested",
+    "text": "native TextFrame/Story from complete paragraphs",
+    "geometry": "native rectangles/ellipses where supported",
+    "complexVectors": "linked SVG, vector internal path editing separate",
+    "photographs": "linked original image and native frame/crop",
+    "limits": "CSS effects and new component mapping require representative native verification"
+  },
+  "parameters": {
+    "cssVariables": [
+      "--ag-blue",
+      "--ag-deep",
+      "--ag-aqua",
+      "--ag-copper",
+      "--ag-paper",
+      "--ag-ink"
+    ],
+    "contentEdit": "Replace slot text in component.html; keep complete paragraphs. Re-render and inspect before reuse."
+  },
+  "provenanceType": "adaptation",
+  "adaptationNotes": "Rework stat value/title/description hierarchy into a fixed quantity field; place five actual content rows beside it instead of a decorative underline.",
+  "sourceReferences": [
+    {
+      "sourceId": "daisyui",
+      "name": "daisyUI",
+      "commit": "8c24218588f34a678f48df435950790b57ef2bf7",
+      "license": "MIT",
+      "doc": "https://daisyui.com/components/stat/",
+      "licenseFile": "sources/daisyui/LICENSE"
+    }
+  ],
+  "sampleContent": "Layout demonstration; values/copy are examples and are not inserted into client documents.",
+  "revision": 2,
+  "origin": {
+    "catalog": "local-v1",
+    "revision": 1,
+    "fragmentSha256": "113fccdee2e8b65d7cd1d81fb24b4ea1121c992692deafbac4a03820e66e9b66",
+    "migrationDate": "2026-10-30"
+  },
+  "migrationChanges": [
+    "customer photos replaced with original generic SVG placeholders",
+    "customer labels removed",
+    "local variable font dependency removed",
+    "historical browser/geometry validation not inherited"
+  ],
+  "selection": {
+    "languages": [
+      "zh"
+    ],
+    "itemCount": {
+      "min": 5,
+      "max": 5
+    },
+    "itemCountMeaning": "repeated information items",
+    "widthPolicy": "Demo dimensions only; adapt and recheck real content"
+  },
+  "tags": [
+    "emphasis",
+    ""
+  ],
+  "status": "candidate",
+  "validation": {
+    "static": "run-check-command-for-current-result",
+    "browser": "pending-after-sanitization",
+    "native": "not-tested",
+    "userVisual": "pending"
+  },
+  "distribution": {
+    "scope": "shared-candidate",
+    "projectLicense": "MIT",
+    "sourceLicenses": [
+      "MIT"
+    ],
+    "includesCustomerAssets": false
+  },
+  "files": [
+    {
+      "path": "component.html",
+      "sha256": "d6451cc34a2792b07f214de1bdd641e436624ac88cabea4feb41accb0c582b9a"
+    },
+    {
+      "path": "component.css",
+      "sha256": "d6c798fd480fe01b5dc3fa1c301d2b9ebe13b3b4120f44f049f76fd8187bbcef"
+    },
+    {
+      "path": "preview.html",
+      "sha256": "e5a1463f926a720c94bdaa571484ced1f76c6c5756d7e61ada532b23eded9b86"
+    }
+  ]
+}

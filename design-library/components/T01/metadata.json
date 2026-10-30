@@ -1,0 +1,113 @@
+{
+  "id": "T01",
+  "name": "引题＋双语主标题",
+  "category": "titles",
+  "subtype": "",
+  "frameMm": [
+    178,
+    48
+  ],
+  "contentFrameMm": [
+    176,
+    46
+  ],
+  "opticalSafeInsetMm": 1,
+  "useWhen": "常规章节标题或二级主题标题。",
+  "contentCapacity": "中文 6–12 字，英文 1–2 行；更长标题另用长标题组件。",
+  "slots": [
+    "eyebrow",
+    "titleZh",
+    "titleEn"
+  ],
+  "geometry": {
+    "titleTranslationBlockGapMm": 2.24
+  },
+  "demoData": null,
+  "nativeMapping": {
+    "status": "not-tested",
+    "text": "native TextFrame/Story from complete paragraphs",
+    "geometry": "native rectangles/ellipses where supported",
+    "complexVectors": "linked SVG, vector internal path editing separate",
+    "photographs": "linked original image and native frame/crop",
+    "limits": "CSS effects and new component mapping require representative native verification"
+  },
+  "parameters": {
+    "cssVariables": [
+      "--ag-blue",
+      "--ag-deep",
+      "--ag-aqua",
+      "--ag-copper",
+      "--ag-paper",
+      "--ag-ink"
+    ],
+    "contentEdit": "Replace slot text in component.html; keep complete paragraphs. Re-render and inspect before reuse."
+  },
+  "provenanceType": "adaptation",
+  "adaptationNotes": "Keep size, leading and width as one title group; adjust scale and unit to brochure typography.",
+  "sourceReferences": [
+    {
+      "sourceId": "radix",
+      "name": "Radix Themes",
+      "commit": "1faff10ac26ae17f09944d418c6949b93fc6b566",
+      "license": "MIT",
+      "doc": "https://www.radix-ui.com/themes/docs/theme/typography",
+      "licenseFile": "sources/radix/LICENSE"
+    }
+  ],
+  "sampleContent": "Layout demonstration; values/copy are examples and are not inserted into client documents.",
+  "revision": 2,
+  "origin": {
+    "catalog": "local-v1",
+    "revision": 1,
+    "fragmentSha256": "d4e272fc6fea1cccb11244cdb42f029a44ae30b2cefa4ea86acfb0490c431e10",
+    "migrationDate": "2026-10-30"
+  },
+  "migrationChanges": [
+    "customer photos replaced with original generic SVG placeholders",
+    "customer labels removed",
+    "local variable font dependency removed",
+    "historical browser/geometry validation not inherited"
+  ],
+  "selection": {
+    "languages": [
+      "zh",
+      "bilingual"
+    ],
+    "itemCount": null,
+    "itemCountMeaning": "repeated information items",
+    "widthPolicy": "Demo dimensions only; adapt and recheck real content"
+  },
+  "tags": [
+    "titles",
+    ""
+  ],
+  "status": "candidate",
+  "validation": {
+    "static": "run-check-command-for-current-result",
+    "browser": "pending-after-sanitization",
+    "native": "not-tested",
+    "userVisual": "pending"
+  },
+  "distribution": {
+    "scope": "shared-candidate",
+    "projectLicense": "MIT",
+    "sourceLicenses": [
+      "MIT"
+    ],
+    "includesCustomerAssets": false
+  },
+  "files": [
+    {
+      "path": "component.html",
+      "sha256": "52aff3469ddf9b4f556dba4812376422741e142aabb807ed2ea0c78b2b84577c"
+    },
+    {
+      "path": "component.css",
+      "sha256": "32bc0f6d9c24841c634e83f7a11c49dc01308a156810e8041bfd89693066c4b4"
+    },
+    {
+      "path": "preview.html",
+      "sha256": "42adbb3ba7055fd0e5607f12808a5ba31a96f2f2a9d99154d48848612cab5a4f"
+    }
+  ]
+}

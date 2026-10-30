@@ -1,0 +1,127 @@
+{
+  "id": "E03",
+  "name": "关键数量＋对应照片",
+  "category": "emphasis",
+  "subtype": "",
+  "frameMm": [
+    178,
+    99
+  ],
+  "contentFrameMm": [
+    176,
+    97
+  ],
+  "opticalSafeInsetMm": 1,
+  "useWhen": "重点数量有对应图片或场景，且单位／条件能同时呈现。",
+  "contentCapacity": "1–4 位数字；单位和说明必须保留。",
+  "slots": [
+    "value",
+    "unit",
+    "label",
+    "photo",
+    "caption"
+  ],
+  "geometry": {},
+  "demoData": {
+    "kind": "demo",
+    "value": 186,
+    "unit": "间"
+  },
+  "nativeMapping": {
+    "status": "not-tested",
+    "text": "native TextFrame/Story from complete paragraphs",
+    "geometry": "native rectangles/ellipses where supported",
+    "complexVectors": "linked SVG, vector internal path editing separate",
+    "photographs": "linked original image and native frame/crop",
+    "limits": "CSS effects and new component mapping require representative native verification"
+  },
+  "parameters": {
+    "cssVariables": [
+      "--ag-blue",
+      "--ag-deep",
+      "--ag-aqua",
+      "--ag-copper",
+      "--ag-paper",
+      "--ag-ink"
+    ],
+    "contentEdit": "Replace slot text in component.html; keep complete paragraphs. Re-render and inspect before reuse."
+  },
+  "provenanceType": "adaptation",
+  "adaptationNotes": "Stat value/label/figure grid and card inset translated into a photo-supported print statistic. Unit and context remain attached.",
+  "sourceReferences": [
+    {
+      "sourceId": "daisyui",
+      "name": "daisyUI",
+      "commit": "8c24218588f34a678f48df435950790b57ef2bf7",
+      "license": "MIT",
+      "doc": "https://daisyui.com/components/stat/",
+      "licenseFile": "sources/daisyui/LICENSE"
+    },
+    {
+      "sourceId": "shadcn",
+      "name": "shadcn/ui",
+      "commit": "02cad61166c4c20edbc8a3f71bd720eed4c1f49b",
+      "license": "MIT",
+      "doc": "https://ui.shadcn.com/docs/components/base/card",
+      "licenseFile": "sources/shadcn/LICENSE.md"
+    }
+  ],
+  "sampleContent": "Layout demonstration; values/copy are examples and are not inserted into client documents.",
+  "revision": 2,
+  "origin": {
+    "catalog": "local-v1",
+    "revision": 1,
+    "fragmentSha256": "cc125e01d78f702eb785d083e57a7d20c34c4d6b584225e932bfd095dd6d6c9b",
+    "migrationDate": "2026-10-30"
+  },
+  "migrationChanges": [
+    "customer photos replaced with original generic SVG placeholders",
+    "customer labels removed",
+    "local variable font dependency removed",
+    "historical browser/geometry validation not inherited"
+  ],
+  "selection": {
+    "languages": [
+      "zh"
+    ],
+    "itemCount": {
+      "min": 1,
+      "max": 1
+    },
+    "itemCountMeaning": "repeated information items",
+    "widthPolicy": "Demo dimensions only; adapt and recheck real content"
+  },
+  "tags": [
+    "emphasis",
+    ""
+  ],
+  "status": "candidate",
+  "validation": {
+    "static": "run-check-command-for-current-result",
+    "browser": "pending-after-sanitization",
+    "native": "not-tested",
+    "userVisual": "pending"
+  },
+  "distribution": {
+    "scope": "shared-candidate",
+    "projectLicense": "MIT",
+    "sourceLicenses": [
+      "MIT"
+    ],
+    "includesCustomerAssets": false
+  },
+  "files": [
+    {
+      "path": "component.html",
+      "sha256": "12853d877b9bac07791439d6f7e6e1539422bdcf7ab95fb4dda8724d2b734523"
+    },
+    {
+      "path": "component.css",
+      "sha256": "621800addec40e5bb71470d3cf12455d0dc0d899e83be307c69552b4d67dec87"
+    },
+    {
+      "path": "preview.html",
+      "sha256": "29b8c8dac5eebecb24e3cccbb4c0551bc78d8c13f654fb007a36ac9d05ae6560"
+    }
+  ]
+}

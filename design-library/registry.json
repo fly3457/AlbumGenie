@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-10-30",
+  "categories": [
+    {
+      "id": "navigation",
+      "name": "页眉页脚与导航",
+      "count": 4
+    },
+    {
+      "id": "titles",
+      "name": "标题与引题",
+      "count": 4
+    },
+    {
+      "id": "emphasis",
+      "name": "重点数字与元素",
+      "count": 4
+    },
+    {
+      "id": "information",
+      "name": "信息组织",
+      "count": 4
+    },
+    {
+      "id": "diagrams",
+      "name": "数据与关系图",
+      "count": 4
+    },
+    {
+      "id": "photography",
+      "name": "照片组图",
+      "count": 4
+    },
+    {
+      "id": "layouts",
+      "name": "整页与跨页版式",
+      "count": 4
+    }
+  ],
+  "components": [
+    {
+      "id": "N01",
+      "name": "栏目名称＋独立页码",
+      "category": "navigation",
+      "metadata": "components/N01/metadata.json"
+    },
+    {
+      "id": "N02",
+      "name": "短边标识＋页脚字面",
+      "category": "navigation",
+      "metadata": "components/N02/metadata.json"
+    },
+    {
+      "id": "N03",
+      "name": "文字路径导航",
+      "category": "navigation",
+      "metadata": "components/N03/metadata.json"
+    },
+    {
+      "id": "N04",
+      "name": "色带栏目＋页码区域",
+      "category": "navigation",
+      "metadata": "components/N04/metadata.json"
+    },
+    {
+      "id": "T01",
+      "name": "引题＋双语主标题",
+      "category": "titles",
+      "metadata": "components/T01/metadata.json"
+    },
+    {
+      "id": "T02",
+      "name": "淡字背景＋前景标题",
+      "category": "titles",
+      "metadata": "components/T02/metadata.json"
+    },
+    {
+      "id": "T03",
+      "name": "关键词并置标题",
+      "category": "titles",
+      "metadata": "components/T03/metadata.json"
+    },
+    {
+      "id": "T04",
+      "name": "深色场中的双语标题",
+      "category": "titles",
+      "metadata": "components/T04/metadata.json"
+    },
+    {
+      "id": "E01",
+      "name": "五等分环＋内容目录",
+      "category": "emphasis",
+      "metadata": "components/E01/metadata.json"
+    },
+    {
+      "id": "E02",
+      "name": "数量色场＋五联内容",
+      "category": "emphasis",
+      "metadata": "components/E02/metadata.json"
+    },
+    {
+      "id": "E03",
+      "name": "关键数量＋对应照片",
+      "category": "emphasis",
+      "metadata": "components/E03/metadata.json"
+    },
+    {
+      "id": "E04",
+      "name": "缩写字面＋重点概念",
+      "category": "emphasis",
+      "metadata": "components/E04/metadata.json"
+    },
+    {
+      "id": "I01",
+      "name": "标题／内容／说明分区卡片",
+      "category": "information",
+      "metadata": "components/I01/metadata.json"
+    },
+    {
+      "id": "I02",
+      "name": "标签／内容对齐目录",
+      "category": "information",
+      "metadata": "components/I02/metadata.json"
+    },
+    {
+      "id": "I03",
+      "name": "有明确日期的时间线",
+      "category": "information",
+      "metadata": "components/I03/metadata.json"
+    },
+    {
+      "id": "I04",
+      "name": "引语与来源整体",
+      "category": "information",
+      "metadata": "components/I04/metadata.json"
+    },
+    {
+      "id": "D01",
+      "name": "有数据依据的柱状构成图",
+      "category": "diagrams",
+      "metadata": "components/D01/metadata.json"
+    },
+    {
+      "id": "D02",
+      "name": "环形占比＋清楚图例",
+      "category": "diagrams",
+      "metadata": "components/D02/metadata.json"
+    },
+    {
+      "id": "D03",
+      "name": "三要素交集关系",
+      "category": "diagrams",
+      "metadata": "components/D03/metadata.json"
+    },
+    {
+      "id": "D04",
+      "name": "三阶段语义流程",
+      "category": "diagrams",
+      "metadata": "components/D04/metadata.json"
+    },
+    {
+      "id": "P01",
+      "name": "四张等权 16:9 图组",
+      "category": "photography",
+      "metadata": "components/P01/metadata.json"
+    },
+    {
+      "id": "P02",
+      "name": "主图＋三张等大辅助图",
+      "category": "photography",
+      "metadata": "components/P02/metadata.json"
+    },
+    {
+      "id": "P03",
+      "name": "竖图与横图共用底线",
+      "category": "photography",
+      "metadata": "components/P03/metadata.json"
+    },
+    {
+      "id": "P04",
+      "name": "两张全景专用图框",
+      "category": "photography",
+      "metadata": "components/P04/metadata.json"
+    },
+    {
+      "id": "L01",
+      "name": "强字面章节开启页",
+      "category": "layouts",
+      "metadata": "components/L01/metadata.json"
+    },
+    {
+      "id": "L02",
+      "name": "双语文章＋竖向主图",
+      "category": "layouts",
+      "metadata": "components/L02/metadata.json"
+    },
+    {
+      "id": "L03",
+      "name": "照片主导的完整跨页",
+      "category": "layouts",
+      "metadata": "components/L03/metadata.json"
+    },
+    {
+      "id": "L04",
+      "name": "说明＋图表的资料跨页",
+      "category": "layouts",
+      "metadata": "components/L04/metadata.json"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+/* AlbumGenie static adaptation. Radix Themes MIT, commit 1faff10ac26ae17f09944d418c6949b93fc6b566; shadcn/ui MIT, commit 02cad61166c4c20edbc8a3f71bd720eed4c1f49b. See sources/ for full notices. Changes: Type hierarchy and content/figure slots adapted to a print editorial grid. Page composition is original and paragraphs stay complete. */
+.agl-L02 .body+.en{margin-top:4mm}.agl-L02 .zh{font-size:31pt}.agl-L02 .at:last-child{text-align:right}

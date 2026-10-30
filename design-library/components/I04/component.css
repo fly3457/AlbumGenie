@@ -1,0 +1,2 @@
+/* AlbumGenie static adaptation. Radix Themes MIT, commit 1faff10ac26ae17f09944d418c6949b93fc6b566. See sources/ for full notices. Changes: Quote/strong hierarchy adapted for an editable editorial pull quote and explicit attribution. */
+.agl-I04 .at:nth-child(2) p{font-size:68pt;line-height:1;color:var(--ag-copper)}.agl-I04 .at:nth-child(3) p{font-size:24pt;line-height:1.45}

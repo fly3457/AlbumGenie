@@ -1,0 +1,2 @@
+/* AlbumGenie static adaptation. Radix Themes MIT, commit 1faff10ac26ae17f09944d418c6949b93fc6b566. See sources/ for full notices. Changes: Use consistent type hierarchy and named colour levels; chart geometry is generated directly from values, not a copied dashboard. */
+.agl-D01 .label{text-align:center}

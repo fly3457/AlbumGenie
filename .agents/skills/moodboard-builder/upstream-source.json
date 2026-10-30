@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/SkillMedev/skills",
+  "path": "skills/moodboard-builder",
+  "commit": "6b3044d569595b481a3677da8f68af7aa239dc09",
+  "installedDate": "2026-10-11",
+  "installedWith": "skill-installer install-skill-from-github.py --method git",
+  "skillContentUnmodified": true,
+  "lineEndings": "Git checkout may use CRLF; upstream content verified after line-ending normalization.",
+  "skillSha256": "934e58d598c6e8d56c9fc340fbb780e8db942ca897dcb916dfd99f9a84fd67ff",
+  "upstreamSkillSha256": "3595d14a5704bc31e292354bfca4d36277bcbe3dc1ad5ea886b84506bf0aa1c3",
+  "licenseSha256": "e55c0849226f9059d1b291000940bda5f88121f12a90c0d8c899fcccdb292292",
+  "license": "MIT",
+  "licenseSource": "https://github.com/SkillMedev/skills/blob/6b3044d569595b481a3677da8f68af7aa239dc09/LICENSE"
+}

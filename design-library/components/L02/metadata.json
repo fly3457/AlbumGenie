@@ -1,0 +1,133 @@
+{
+  "id": "L02",
+  "name": "双语文章＋竖向主图",
+  "category": "layouts",
+  "subtype": "",
+  "frameMm": [
+    210,
+    285
+  ],
+  "contentFrameMm": [
+    210,
+    285
+  ],
+  "opticalSafeInsetMm": 0,
+  "useWhen": "介绍类文章，有一张质量较高的竖向主图。",
+  "contentCapacity": "当前样例约 150 中文字＋80 英文词；更长全文需增高／续排，不缩到不可读。",
+  "slots": [
+    "section",
+    "titleZh",
+    "titleEn",
+    "bodyZh",
+    "bodyEn",
+    "photo",
+    "caption",
+    "quote",
+    "pageNumber"
+  ],
+  "geometry": {
+    "columnWidthMm": 84,
+    "photoMm": [
+      80,
+      120
+    ],
+    "gutterMm": 12,
+    "nativeText": "complete paragraphs"
+  },
+  "demoData": null,
+  "nativeMapping": {
+    "status": "not-tested",
+    "text": "native TextFrame/Story from complete paragraphs",
+    "geometry": "native rectangles/ellipses where supported",
+    "complexVectors": "linked SVG, vector internal path editing separate",
+    "photographs": "linked original image and native frame/crop",
+    "limits": "CSS effects and new component mapping require representative native verification"
+  },
+  "parameters": {
+    "cssVariables": [
+      "--ag-blue",
+      "--ag-deep",
+      "--ag-aqua",
+      "--ag-copper",
+      "--ag-paper",
+      "--ag-ink"
+    ],
+    "contentEdit": "Replace slot text in component.html; keep complete paragraphs. Re-render and inspect before reuse."
+  },
+  "provenanceType": "adaptation",
+  "adaptationNotes": "Type hierarchy and content/figure slots adapted to a print editorial grid. Page composition is original and paragraphs stay complete.",
+  "sourceReferences": [
+    {
+      "sourceId": "radix",
+      "name": "Radix Themes",
+      "commit": "1faff10ac26ae17f09944d418c6949b93fc6b566",
+      "license": "MIT",
+      "doc": "https://www.radix-ui.com/themes/docs/theme/typography",
+      "licenseFile": "sources/radix/LICENSE"
+    },
+    {
+      "sourceId": "shadcn",
+      "name": "shadcn/ui",
+      "commit": "02cad61166c4c20edbc8a3f71bd720eed4c1f49b",
+      "license": "MIT",
+      "doc": "https://ui.shadcn.com/docs/components/base/card",
+      "licenseFile": "sources/shadcn/LICENSE.md"
+    }
+  ],
+  "sampleContent": "Layout demonstration; values/copy are examples and are not inserted into client documents.",
+  "revision": 2,
+  "origin": {
+    "catalog": "local-v1",
+    "revision": 1,
+    "fragmentSha256": "61b936cba55c575ffb38e69ed21789c5f713a2692f47bf43759eb1b6b2964b55",
+    "migrationDate": "2026-10-30"
+  },
+  "migrationChanges": [
+    "customer photos replaced with original generic SVG placeholders",
+    "customer labels removed",
+    "local variable font dependency removed",
+    "historical browser/geometry validation not inherited"
+  ],
+  "selection": {
+    "languages": [
+      "zh",
+      "bilingual"
+    ],
+    "itemCount": null,
+    "itemCountMeaning": "repeated information items",
+    "widthPolicy": "Demo dimensions only; adapt and recheck real content"
+  },
+  "tags": [
+    "layouts",
+    ""
+  ],
+  "status": "candidate",
+  "validation": {
+    "static": "run-check-command-for-current-result",
+    "browser": "pending-after-sanitization",
+    "native": "not-tested",
+    "userVisual": "pending"
+  },
+  "distribution": {
+    "scope": "shared-candidate",
+    "projectLicense": "MIT",
+    "sourceLicenses": [
+      "MIT"
+    ],
+    "includesCustomerAssets": false
+  },
+  "files": [
+    {
+      "path": "component.html",
+      "sha256": "c5d14473e9838774ca0c2a192f15b1ab0776ce6a2142555cdc1840f3a9479b76"
+    },
+    {
+      "path": "component.css",
+      "sha256": "d27fbd40fe156f99221bbd98b3c3cd17607bdcc500f7fdb50c41485c9eba9a61"
+    },
+    {
+      "path": "preview.html",
+      "sha256": "136a3fedd045b77090e831b3d7b47b313988cd160f6faf7d345282fab264b1e9"
+    }
+  ]
+}

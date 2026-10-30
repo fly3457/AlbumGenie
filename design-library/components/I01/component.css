@@ -1,0 +1,2 @@
+/* AlbumGenie static adaptation. shadcn/ui MIT, commit 02cad61166c4c20edbc8a3f71bd720eed4c1f49b. See sources/ for full notices. Changes: Convert CardHeader/CardContent/CardFooter structure to static print sections; remove actions and framework runtime, convert space to mm. */
+.agl-I01{border:.25mm solid var(--ag-rule);border-radius:3mm}.agl-I01 .sub{font-size:12.5pt}

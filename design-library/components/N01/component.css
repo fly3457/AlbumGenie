@@ -1,0 +1,2 @@
+/* AlbumGenie static adaptation. Radix Themes MIT, commit 1faff10ac26ae17f09944d418c6949b93fc6b566. See sources/ for full notices. Changes: Adapt proportional type hierarchy to print; chapter navigation uses names, page number has an explicit role label. */
+.agl-N01 .at:last-child{text-align:right}

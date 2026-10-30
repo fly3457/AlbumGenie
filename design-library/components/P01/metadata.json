@@ -1,0 +1,110 @@
+{
+  "id": "P01",
+  "name": "四张等权 16:9 图组",
+  "category": "photography",
+  "subtype": "",
+  "frameMm": [
+    178,
+    118
+  ],
+  "contentFrameMm": [
+    176,
+    116
+  ],
+  "opticalSafeInsetMm": 1,
+  "useWhen": "四张信息权重相近的环境照片。",
+  "contentCapacity": "4 张横向照片；每张短图注。主体不能因裁切丢失。",
+  "slots": [
+    "photos[4]",
+    "captions[4]"
+  ],
+  "geometry": {
+    "frameMm": [
+      86,
+      48.375
+    ],
+    "aspectRatio": "16:9",
+    "horizontalGapMm": 4,
+    "rowGapIncludesCaptionMm": 9.625,
+    "uniformFrames": true
+  },
+  "demoData": null,
+  "nativeMapping": {
+    "status": "not-tested",
+    "text": "native TextFrame/Story from complete paragraphs",
+    "geometry": "native rectangles/ellipses where supported",
+    "complexVectors": "linked SVG, vector internal path editing separate",
+    "photographs": "linked original image and native frame/crop",
+    "limits": "CSS effects and new component mapping require representative native verification"
+  },
+  "parameters": {
+    "cssVariables": [
+      "--ag-blue",
+      "--ag-deep",
+      "--ag-aqua",
+      "--ag-copper",
+      "--ag-paper",
+      "--ag-ink"
+    ],
+    "contentEdit": "Replace slot text in component.html; keep complete paragraphs. Re-render and inspect before reuse."
+  },
+  "provenanceType": "project-original",
+  "adaptationNotes": "",
+  "sourceReferences": [],
+  "sampleContent": "Layout demonstration; values/copy are examples and are not inserted into client documents.",
+  "revision": 2,
+  "origin": {
+    "catalog": "local-v1",
+    "revision": 1,
+    "fragmentSha256": "3e9c17d3b9e044b6545e02800f5956e225104eeae443fb84c8ea09a77af2f2af",
+    "migrationDate": "2026-10-30"
+  },
+  "migrationChanges": [
+    "customer photos replaced with original generic SVG placeholders",
+    "customer labels removed",
+    "local variable font dependency removed",
+    "historical browser/geometry validation not inherited"
+  ],
+  "selection": {
+    "languages": [
+      "zh"
+    ],
+    "itemCount": {
+      "min": 4,
+      "max": 4
+    },
+    "itemCountMeaning": "photo slots",
+    "widthPolicy": "Demo dimensions only; adapt and recheck real content"
+  },
+  "tags": [
+    "photography",
+    ""
+  ],
+  "status": "candidate",
+  "validation": {
+    "static": "run-check-command-for-current-result",
+    "browser": "pending-after-sanitization",
+    "native": "not-tested",
+    "userVisual": "pending"
+  },
+  "distribution": {
+    "scope": "shared-candidate",
+    "projectLicense": "MIT",
+    "sourceLicenses": [],
+    "includesCustomerAssets": false
+  },
+  "files": [
+    {
+      "path": "component.html",
+      "sha256": "a36ffdbacc44f08c368bd94ed70a74d17a77b4dc3e706a65e4a69bcfc7e0fbcf"
+    },
+    {
+      "path": "component.css",
+      "sha256": "1a58b9c88e25970fae7f9980573f2ace029af7bffdafb987078a96cb1f64dd0b"
+    },
+    {
+      "path": "preview.html",
+      "sha256": "b457df796d2e0373b8ca0e236864f3f8606a92211eb57050cab72929ce082c1f"
+    }
+  ]
+}

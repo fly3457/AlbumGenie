@@ -1,0 +1,127 @@
+{
+  "id": "D01",
+  "name": "有数据依据的柱状构成图",
+  "category": "diagrams",
+  "subtype": "data-chart",
+  "frameMm": [
+    178,
+    124
+  ],
+  "contentFrameMm": [
+    176,
+    122
+  ],
+  "opticalSafeInsetMm": 1,
+  "useWhen": "可靠数据的同一指标、同一单位可比较时。",
+  "contentCapacity": "3–6 项；数值与基线按同一比例生成。",
+  "slots": [
+    "title",
+    "categoryNames",
+    "values",
+    "unit",
+    "sourceNote"
+  ],
+  "geometry": {
+    "baselineMm": 97,
+    "heightMmPerPercent": 1.35
+  },
+  "demoData": {
+    "kind": "demo",
+    "values": [
+      40,
+      32,
+      28
+    ],
+    "unit": "%",
+    "total": 100
+  },
+  "nativeMapping": {
+    "status": "not-tested",
+    "text": "native TextFrame/Story from complete paragraphs",
+    "geometry": "native rectangles/ellipses where supported",
+    "complexVectors": "linked SVG, vector internal path editing separate",
+    "photographs": "linked original image and native frame/crop",
+    "limits": "CSS effects and new component mapping require representative native verification"
+  },
+  "parameters": {
+    "cssVariables": [
+      "--ag-blue",
+      "--ag-deep",
+      "--ag-aqua",
+      "--ag-copper",
+      "--ag-paper",
+      "--ag-ink"
+    ],
+    "contentEdit": "Replace slot text in component.html; keep complete paragraphs. Re-render and inspect before reuse."
+  },
+  "provenanceType": "adaptation",
+  "adaptationNotes": "Use consistent type hierarchy and named colour levels; chart geometry is generated directly from values, not a copied dashboard.",
+  "sourceReferences": [
+    {
+      "sourceId": "radix",
+      "name": "Radix Themes",
+      "commit": "1faff10ac26ae17f09944d418c6949b93fc6b566",
+      "license": "MIT",
+      "doc": "https://www.radix-ui.com/themes/docs/theme/typography",
+      "licenseFile": "sources/radix/LICENSE"
+    }
+  ],
+  "sampleContent": "Layout demonstration; values/copy are examples and are not inserted into client documents.",
+  "revision": 2,
+  "origin": {
+    "catalog": "local-v1",
+    "revision": 1,
+    "fragmentSha256": "3a751cc91705e03c75a3045579b54963d8e86660ac975c64444dac25bfbe08df",
+    "migrationDate": "2026-10-30"
+  },
+  "migrationChanges": [
+    "customer photos replaced with original generic SVG placeholders",
+    "customer labels removed",
+    "local variable font dependency removed",
+    "historical browser/geometry validation not inherited"
+  ],
+  "selection": {
+    "languages": [
+      "zh"
+    ],
+    "itemCount": {
+      "min": 3,
+      "max": 6
+    },
+    "itemCountMeaning": "repeated information items",
+    "widthPolicy": "Demo dimensions only; adapt and recheck real content"
+  },
+  "tags": [
+    "diagrams",
+    "data-chart"
+  ],
+  "status": "candidate",
+  "validation": {
+    "static": "run-check-command-for-current-result",
+    "browser": "pending-after-sanitization",
+    "native": "not-tested",
+    "userVisual": "pending"
+  },
+  "distribution": {
+    "scope": "shared-candidate",
+    "projectLicense": "MIT",
+    "sourceLicenses": [
+      "MIT"
+    ],
+    "includesCustomerAssets": false
+  },
+  "files": [
+    {
+      "path": "component.html",
+      "sha256": "7fdb01c58a4fc34d780317ecdefef038a14333c6c2745ac722a898e951fb3e7a"
+    },
+    {
+      "path": "component.css",
+      "sha256": "654690d2f3f663ad6c3ba19948c462588dce936d22eed2e9d57c0e028c199d39"
+    },
+    {
+      "path": "preview.html",
+      "sha256": "f31d810488a513af78fe17657e469b6e36d47c2e8a7434d9c9dfcdf32536d741"
+    }
+  ]
+}

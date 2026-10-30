@@ -1,0 +1,128 @@
+{
+  "id": "L03",
+  "name": "照片主导的完整跨页",
+  "category": "layouts",
+  "subtype": "",
+  "frameMm": [
+    420,
+    285
+  ],
+  "contentFrameMm": [
+    420,
+    285
+  ],
+  "opticalSafeInsetMm": 0,
+  "useWhen": "一个主要场景和两个辅助场景组成完整叙事。",
+  "contentCapacity": "两页整体；主图需足够清晰，人物及标牌需核对跨页裁切。",
+  "slots": [
+    "hero",
+    "titleZh",
+    "titleEn",
+    "bodyZh",
+    "bodyEn",
+    "supportingPhotos[2]",
+    "captions",
+    "pageNumbers"
+  ],
+  "geometry": {
+    "pageMm": [
+      210,
+      285
+    ],
+    "spreadMm": [
+      420,
+      285
+    ],
+    "gutterAtMm": 210,
+    "supportingRatio": "16:9",
+    "supportingGapMm": 4
+  },
+  "demoData": null,
+  "nativeMapping": {
+    "status": "not-tested",
+    "text": "native TextFrame/Story from complete paragraphs",
+    "geometry": "native rectangles/ellipses where supported",
+    "complexVectors": "linked SVG, vector internal path editing separate",
+    "photographs": "linked original image and native frame/crop",
+    "limits": "CSS effects and new component mapping require representative native verification"
+  },
+  "parameters": {
+    "cssVariables": [
+      "--ag-blue",
+      "--ag-deep",
+      "--ag-aqua",
+      "--ag-copper",
+      "--ag-paper",
+      "--ag-ink"
+    ],
+    "contentEdit": "Replace slot text in component.html; keep complete paragraphs. Re-render and inspect before reuse."
+  },
+  "provenanceType": "adaptation",
+  "adaptationNotes": "Card image/inset relationship is retained as a structural reference; facing-page composition, photo hierarchy and named navigation are project original.",
+  "sourceReferences": [
+    {
+      "sourceId": "shadcn",
+      "name": "shadcn/ui",
+      "commit": "02cad61166c4c20edbc8a3f71bd720eed4c1f49b",
+      "license": "MIT",
+      "doc": "https://ui.shadcn.com/docs/components/base/card",
+      "licenseFile": "sources/shadcn/LICENSE.md"
+    }
+  ],
+  "sampleContent": "Layout demonstration; values/copy are examples and are not inserted into client documents.",
+  "revision": 2,
+  "origin": {
+    "catalog": "local-v1",
+    "revision": 1,
+    "fragmentSha256": "02030ecbacff2a8b057147a3910717bbf3958f3f292225e6e4d7ad79b1336dd8",
+    "migrationDate": "2026-10-30"
+  },
+  "migrationChanges": [
+    "customer photos replaced with original generic SVG placeholders",
+    "customer labels removed",
+    "local variable font dependency removed",
+    "historical browser/geometry validation not inherited"
+  ],
+  "selection": {
+    "languages": [
+      "zh",
+      "bilingual"
+    ],
+    "itemCount": null,
+    "itemCountMeaning": "repeated information items",
+    "widthPolicy": "Demo dimensions only; adapt and recheck real content"
+  },
+  "tags": [
+    "layouts",
+    ""
+  ],
+  "status": "candidate",
+  "validation": {
+    "static": "run-check-command-for-current-result",
+    "browser": "pending-after-sanitization",
+    "native": "not-tested",
+    "userVisual": "pending"
+  },
+  "distribution": {
+    "scope": "shared-candidate",
+    "projectLicense": "MIT",
+    "sourceLicenses": [
+      "MIT"
+    ],
+    "includesCustomerAssets": false
+  },
+  "files": [
+    {
+      "path": "component.html",
+      "sha256": "98b84d3dd81b3553d7e81447079da28417eb1e344b2ab2361a4873ce64da1021"
+    },
+    {
+      "path": "component.css",
+      "sha256": "15fe245409852a7b2a99211bc5990722bf0ec232b43f78f58f49d72df1e076e9"
+    },
+    {
+      "path": "preview.html",
+      "sha256": "d75bb04012e007c1833a290258d60ce1460f7afb2695fbd0074a28d93feebf68"
+    }
+  ]
+}

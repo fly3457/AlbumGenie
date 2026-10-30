@@ -1,0 +1,131 @@
+{
+  "id": "D02",
+  "name": "环形占比＋清楚图例",
+  "category": "diagrams",
+  "subtype": "data-chart",
+  "frameMm": [
+    178,
+    101
+  ],
+  "contentFrameMm": [
+    176,
+    99
+  ],
+  "opticalSafeInsetMm": 1,
+  "useWhen": "存在可靠的整体构成数据，且各值合计为 100%。",
+  "contentCapacity": "2–5 项；单位和图例不可省略。",
+  "slots": [
+    "title",
+    "values",
+    "labels",
+    "unit",
+    "sourceNote"
+  ],
+  "geometry": {
+    "sectorDegrees": [
+      172.8,
+      115.2,
+      72.0
+    ]
+  },
+  "demoData": {
+    "kind": "demo",
+    "values": [
+      48,
+      32,
+      20
+    ],
+    "unit": "%",
+    "total": 100
+  },
+  "nativeMapping": {
+    "status": "not-tested",
+    "text": "native TextFrame/Story from complete paragraphs",
+    "geometry": "native rectangles/ellipses where supported",
+    "complexVectors": "linked SVG, vector internal path editing separate",
+    "photographs": "linked original image and native frame/crop",
+    "limits": "CSS effects and new component mapping require representative native verification"
+  },
+  "parameters": {
+    "cssVariables": [
+      "--ag-blue",
+      "--ag-deep",
+      "--ag-aqua",
+      "--ag-copper",
+      "--ag-paper",
+      "--ag-ink"
+    ],
+    "contentEdit": "Replace slot text in component.html; keep complete paragraphs. Re-render and inspect before reuse."
+  },
+  "provenanceType": "adaptation",
+  "adaptationNotes": "Recreate RingProgress arcs as static SVG from stated values, with editable text and legend outside the SVG.",
+  "sourceReferences": [
+    {
+      "sourceId": "mantine",
+      "name": "Mantine",
+      "commit": "e243f7f999b3250c0babe6c6aa6dba9bcb4aa836",
+      "license": "MIT",
+      "doc": "https://mantine.dev/core/timeline/",
+      "licenseFile": "sources/mantine/LICENSE"
+    }
+  ],
+  "sampleContent": "Layout demonstration; values/copy are examples and are not inserted into client documents.",
+  "revision": 2,
+  "origin": {
+    "catalog": "local-v1",
+    "revision": 1,
+    "fragmentSha256": "1710bd3669fea5bdaa83a38d749940b87571a1fd96ec4d791d0fc0c9c5e24b98",
+    "migrationDate": "2026-10-30"
+  },
+  "migrationChanges": [
+    "customer photos replaced with original generic SVG placeholders",
+    "customer labels removed",
+    "local variable font dependency removed",
+    "historical browser/geometry validation not inherited"
+  ],
+  "selection": {
+    "languages": [
+      "zh",
+      "bilingual"
+    ],
+    "itemCount": {
+      "min": 2,
+      "max": 5
+    },
+    "itemCountMeaning": "repeated information items",
+    "widthPolicy": "Demo dimensions only; adapt and recheck real content"
+  },
+  "tags": [
+    "diagrams",
+    "data-chart"
+  ],
+  "status": "candidate",
+  "validation": {
+    "static": "run-check-command-for-current-result",
+    "browser": "pending-after-sanitization",
+    "native": "not-tested",
+    "userVisual": "pending"
+  },
+  "distribution": {
+    "scope": "shared-candidate",
+    "projectLicense": "MIT",
+    "sourceLicenses": [
+      "MIT"
+    ],
+    "includesCustomerAssets": false
+  },
+  "files": [
+    {
+      "path": "component.html",
+      "sha256": "aca10fbc7be8e6f26915eb6c0f430d4c7666461ee89739dca2540aa7e5094a31"
+    },
+    {
+      "path": "component.css",
+      "sha256": "f4e8bf87bf8cc955d404fd55b3063faf713e4c5b838090f63bbed3c32c6f5196"
+    },
+    {
+      "path": "preview.html",
+      "sha256": "f32ef08ac4c8c80e4d0992b8d3f5ec8d274211a8d8db8d6020d2e8658bb88b53"
+    }
+  ]
+}

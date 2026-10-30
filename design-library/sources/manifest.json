@@ -1,0 +1,179 @@
+[
+  {
+    "id": "shadcn",
+    "name": "shadcn/ui",
+    "repo": "shadcn-ui/ui",
+    "branch": "main",
+    "licensePath": "LICENSE.md",
+    "doc": "https://ui.shadcn.com/docs/components/base/card",
+    "patterns": [
+      "/ui/card.tsx"
+    ],
+    "preferred": "/bases/radix/",
+    "commit": "02cad61166c4c20edbc8a3f71bd720eed4c1f49b",
+    "license": "MIT",
+    "archived": false,
+    "starsAtCheck": 125388,
+    "checkedDate": "2026-10-12",
+    "files": [
+      {
+        "path": "LICENSE.md",
+        "local": "sources/shadcn/LICENSE.md",
+        "url": "https://raw.githubusercontent.com/shadcn-ui/ui/02cad61166c4c20edbc8a3f71bd720eed4c1f49b/LICENSE.md",
+        "permalink": "https://github.com/shadcn-ui/ui/blob/02cad61166c4c20edbc8a3f71bd720eed4c1f49b/LICENSE.md",
+        "sha256": "1564074e13439397221ffd522e2e504d56561994a23d371aa5e3ad43e4f5423f",
+        "bytes": 1063
+      },
+      {
+        "path": "apps/v4/registry/bases/radix/ui/card.tsx",
+        "local": "sources/shadcn/apps/v4/registry/bases/radix/ui/card.tsx",
+        "url": "https://raw.githubusercontent.com/shadcn-ui/ui/02cad61166c4c20edbc8a3f71bd720eed4c1f49b/apps/v4/registry/bases/radix/ui/card.tsx",
+        "permalink": "https://github.com/shadcn-ui/ui/blob/02cad61166c4c20edbc8a3f71bd720eed4c1f49b/apps/v4/registry/bases/radix/ui/card.tsx",
+        "sha256": "0d525c03e086b0047f7c0700850281023359cfc020eb233fdb0d74ec870ebea0",
+        "bytes": 2031
+      }
+    ],
+    "materialUse": "Pure static adaptation of selected hierarchy/geometry; no framework runtime or upstream interaction code is executed."
+  },
+  {
+    "id": "radix",
+    "name": "Radix Themes",
+    "repo": "radix-ui/themes",
+    "branch": "main",
+    "licensePath": "LICENSE",
+    "doc": "https://www.radix-ui.com/themes/docs/theme/typography",
+    "patterns": [
+      "/tokens/typography.css",
+      "/tokens/space.css",
+      "/components/card.css"
+    ],
+    "commit": "1faff10ac26ae17f09944d418c6949b93fc6b566",
+    "license": "MIT",
+    "archived": false,
+    "starsAtCheck": 8762,
+    "checkedDate": "2026-10-12",
+    "files": [
+      {
+        "path": "LICENSE",
+        "local": "sources/radix/LICENSE",
+        "url": "https://raw.githubusercontent.com/radix-ui/themes/1faff10ac26ae17f09944d418c6949b93fc6b566/LICENSE",
+        "permalink": "https://github.com/radix-ui/themes/blob/1faff10ac26ae17f09944d418c6949b93fc6b566/LICENSE",
+        "sha256": "89e4ae7d91c640c6e8a3ca90ba578d799eb2491b766ed65e0725ba36499d56ba",
+        "bytes": 1063
+      },
+      {
+        "path": "packages/radix-ui-themes/src/styles/tokens/typography.css",
+        "local": "sources/radix/packages/radix-ui-themes/src/styles/tokens/typography.css",
+        "url": "https://raw.githubusercontent.com/radix-ui/themes/1faff10ac26ae17f09944d418c6949b93fc6b566/packages/radix-ui-themes/src/styles/tokens/typography.css",
+        "permalink": "https://github.com/radix-ui/themes/blob/1faff10ac26ae17f09944d418c6949b93fc6b566/packages/radix-ui-themes/src/styles/tokens/typography.css",
+        "sha256": "6e3eceb987598abf72bdd8a338e7270d91000ab326bfc3d2852368e5436f04cd",
+        "bytes": 7880
+      },
+      {
+        "path": "packages/radix-ui-themes/src/styles/tokens/space.css",
+        "local": "sources/radix/packages/radix-ui-themes/src/styles/tokens/space.css",
+        "url": "https://raw.githubusercontent.com/radix-ui/themes/1faff10ac26ae17f09944d418c6949b93fc6b566/packages/radix-ui-themes/src/styles/tokens/space.css",
+        "permalink": "https://github.com/radix-ui/themes/blob/1faff10ac26ae17f09944d418c6949b93fc6b566/packages/radix-ui-themes/src/styles/tokens/space.css",
+        "sha256": "e7ef02a71575ecc896c0d330ad88d3548bdf68b58bce5a828fa37a497452cc2a",
+        "bytes": 394
+      },
+      {
+        "path": "packages/radix-ui-themes/src/components/card.css",
+        "local": "sources/radix/packages/radix-ui-themes/src/components/card.css",
+        "url": "https://raw.githubusercontent.com/radix-ui/themes/1faff10ac26ae17f09944d418c6949b93fc6b566/packages/radix-ui-themes/src/components/card.css",
+        "permalink": "https://github.com/radix-ui/themes/blob/1faff10ac26ae17f09944d418c6949b93fc6b566/packages/radix-ui-themes/src/components/card.css",
+        "sha256": "940089032a4fd239a19f758f89392f72f5973a667114faa1ca9a0dd344f813bc",
+        "bytes": 6279
+      }
+    ],
+    "materialUse": "Pure static adaptation of selected hierarchy/geometry; no framework runtime or upstream interaction code is executed."
+  },
+  {
+    "id": "mantine",
+    "name": "Mantine",
+    "repo": "mantinedev/mantine",
+    "branch": "master",
+    "licensePath": "LICENSE",
+    "doc": "https://mantine.dev/core/timeline/",
+    "patterns": [
+      "/Timeline.module.css",
+      "/RingProgress.tsx"
+    ],
+    "commit": "e243f7f999b3250c0babe6c6aa6dba9bcb4aa836",
+    "license": "MIT",
+    "archived": false,
+    "starsAtCheck": 31822,
+    "checkedDate": "2026-10-12",
+    "files": [
+      {
+        "path": "LICENSE",
+        "local": "sources/mantine/LICENSE",
+        "url": "https://raw.githubusercontent.com/mantinedev/mantine/e243f7f999b3250c0babe6c6aa6dba9bcb4aa836/LICENSE",
+        "permalink": "https://github.com/mantinedev/mantine/blob/e243f7f999b3250c0babe6c6aa6dba9bcb4aa836/LICENSE",
+        "sha256": "61c765e625bc25d55143f14de7554685c52f21d9e671d3d204304691a163d06a",
+        "bytes": 1073
+      },
+      {
+        "path": "packages/@mantine/core/src/components/Timeline/Timeline.module.css",
+        "local": "sources/mantine/packages/@mantine/core/src/components/Timeline/Timeline.module.css",
+        "url": "https://raw.githubusercontent.com/mantinedev/mantine/e243f7f999b3250c0babe6c6aa6dba9bcb4aa836/packages/@mantine/core/src/components/Timeline/Timeline.module.css",
+        "permalink": "https://github.com/mantinedev/mantine/blob/e243f7f999b3250c0babe6c6aa6dba9bcb4aa836/packages/@mantine/core/src/components/Timeline/Timeline.module.css",
+        "sha256": "af444c02e31612fcf98db054fc3d76ff2618f0f7428d9acf180bd4ce13f0ebe6",
+        "bytes": 5725
+      },
+      {
+        "path": "packages/@mantine/core/src/components/RingProgress/RingProgress.tsx",
+        "local": "sources/mantine/packages/@mantine/core/src/components/RingProgress/RingProgress.tsx",
+        "url": "https://raw.githubusercontent.com/mantinedev/mantine/e243f7f999b3250c0babe6c6aa6dba9bcb4aa836/packages/@mantine/core/src/components/RingProgress/RingProgress.tsx",
+        "permalink": "https://github.com/mantinedev/mantine/blob/e243f7f999b3250c0babe6c6aa6dba9bcb4aa836/packages/@mantine/core/src/components/RingProgress/RingProgress.tsx",
+        "sha256": "7949ba6294abba3a373191884737871a1c002698c7a3c2cc15694f2789467441",
+        "bytes": 4614
+      }
+    ],
+    "materialUse": "Pure static adaptation of selected hierarchy/geometry; no framework runtime or upstream interaction code is executed."
+  },
+  {
+    "id": "daisyui",
+    "name": "daisyUI",
+    "repo": "saadeghi/daisyui",
+    "branch": "master",
+    "licensePath": "LICENSE",
+    "doc": "https://daisyui.com/components/stat/",
+    "patterns": [
+      "/stat.css",
+      "/timeline.css"
+    ],
+    "commit": "8c24218588f34a678f48df435950790b57ef2bf7",
+    "license": "MIT",
+    "archived": false,
+    "starsAtCheck": 42575,
+    "checkedDate": "2026-10-12",
+    "files": [
+      {
+        "path": "LICENSE",
+        "local": "sources/daisyui/LICENSE",
+        "url": "https://raw.githubusercontent.com/saadeghi/daisyui/8c24218588f34a678f48df435950790b57ef2bf7/LICENSE",
+        "permalink": "https://github.com/saadeghi/daisyui/blob/8c24218588f34a678f48df435950790b57ef2bf7/LICENSE",
+        "sha256": "8709e3ac65c84637c422dc8082b893d9997fce093751c77b2f1983bf29dbf9ea",
+        "bytes": 1071
+      },
+      {
+        "path": "packages/daisyui/src/components/stat.css",
+        "local": "sources/daisyui/packages/daisyui/src/components/stat.css",
+        "url": "https://raw.githubusercontent.com/saadeghi/daisyui/8c24218588f34a678f48df435950790b57ef2bf7/packages/daisyui/src/components/stat.css",
+        "permalink": "https://github.com/saadeghi/daisyui/blob/8c24218588f34a678f48df435950790b57ef2bf7/packages/daisyui/src/components/stat.css",
+        "sha256": "55de76e84a0dd8b8a666a5ed587316e5e045b11a953ba4d9038c5dcf77a22b3b",
+        "bytes": 1539
+      },
+      {
+        "path": "packages/daisyui/src/components/timeline.css",
+        "local": "sources/daisyui/packages/daisyui/src/components/timeline.css",
+        "url": "https://raw.githubusercontent.com/saadeghi/daisyui/8c24218588f34a678f48df435950790b57ef2bf7/packages/daisyui/src/components/timeline.css",
+        "permalink": "https://github.com/saadeghi/daisyui/blob/8c24218588f34a678f48df435950790b57ef2bf7/packages/daisyui/src/components/timeline.css",
+        "sha256": "ae93ab43719425c7d016f4a9fe1bdd65dca4df142cb5a7960422997620789893",
+        "bytes": 5129
+      }
+    ],
+    "materialUse": "Pure static adaptation of selected hierarchy/geometry; no framework runtime or upstream interaction code is executed."
+  }
+]

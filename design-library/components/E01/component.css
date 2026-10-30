@@ -1,0 +1,2 @@
+/* AlbumGenie static adaptation. Mantine MIT, commit e243f7f999b3250c0babe6c6aa6dba9bcb4aa836. See sources/ for full notices. Changes: Adapt RingProgress SVG arc geometry into five equal quantity segments. Centre text and labels remain HTML; it represents five items, not completion rate. */
+.agl-E01 .at:nth-child(2),.agl-E01 .at:nth-child(3){text-align:center}.agl-E01 .num{font-size:82pt}

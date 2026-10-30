@@ -1,0 +1,2 @@
+/* AlbumGenie static adaptation. shadcn/ui MIT, commit 02cad61166c4c20edbc8a3f71bd720eed4c1f49b. See sources/ for full notices. Changes: Card image/inset relationship is retained as a structural reference; facing-page composition, photo hierarchy and named navigation are project original. */
+.agl-L03 .at:nth-child(3) .zh{color:white;font-size:28pt}.agl-L03 .at:nth-child(3) .en{color:#c7dbea}.agl-L03 .body+.en{margin-top:4mm}.agl-L03 .at:nth-last-child(3) .small{color:#c7dbea}.agl-L03 .at:last-child{text-align:right}

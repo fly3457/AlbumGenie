@@ -1,0 +1,117 @@
+{
+  "id": "N01",
+  "name": "栏目名称＋独立页码",
+  "category": "navigation",
+  "subtype": "",
+  "frameMm": [
+    178,
+    47
+  ],
+  "contentFrameMm": [
+    176,
+    45
+  ],
+  "opticalSafeInsetMm": 1,
+  "useWhen": "常规内页，章节名称能直接帮助定位。",
+  "contentCapacity": "栏目名 2–8 个汉字；英文不超过 28 字符。",
+  "slots": [
+    "sectionZh",
+    "sectionEn",
+    "brand",
+    "pageNumber"
+  ],
+  "geometry": {
+    "ruleMm": 0.25,
+    "numericRoles": [
+      "page number only"
+    ]
+  },
+  "demoData": null,
+  "nativeMapping": {
+    "status": "not-tested",
+    "text": "native TextFrame/Story from complete paragraphs",
+    "geometry": "native rectangles/ellipses where supported",
+    "complexVectors": "linked SVG, vector internal path editing separate",
+    "photographs": "linked original image and native frame/crop",
+    "limits": "CSS effects and new component mapping require representative native verification"
+  },
+  "parameters": {
+    "cssVariables": [
+      "--ag-blue",
+      "--ag-deep",
+      "--ag-aqua",
+      "--ag-copper",
+      "--ag-paper",
+      "--ag-ink"
+    ],
+    "contentEdit": "Replace slot text in component.html; keep complete paragraphs. Re-render and inspect before reuse."
+  },
+  "provenanceType": "adaptation",
+  "adaptationNotes": "Adapt proportional type hierarchy to print; chapter navigation uses names, page number has an explicit role label.",
+  "sourceReferences": [
+    {
+      "sourceId": "radix",
+      "name": "Radix Themes",
+      "commit": "1faff10ac26ae17f09944d418c6949b93fc6b566",
+      "license": "MIT",
+      "doc": "https://www.radix-ui.com/themes/docs/theme/typography",
+      "licenseFile": "sources/radix/LICENSE"
+    }
+  ],
+  "sampleContent": "Layout demonstration; values/copy are examples and are not inserted into client documents.",
+  "revision": 2,
+  "origin": {
+    "catalog": "local-v1",
+    "revision": 1,
+    "fragmentSha256": "af83a60e69ac152ca9310509276dd6814fdfa7a891da0e3f53508e1b621fd421",
+    "migrationDate": "2026-10-30"
+  },
+  "migrationChanges": [
+    "customer photos replaced with original generic SVG placeholders",
+    "customer labels removed",
+    "local variable font dependency removed",
+    "historical browser/geometry validation not inherited"
+  ],
+  "selection": {
+    "languages": [
+      "zh",
+      "bilingual"
+    ],
+    "itemCount": null,
+    "itemCountMeaning": "repeated information items",
+    "widthPolicy": "Demo dimensions only; adapt and recheck real content"
+  },
+  "tags": [
+    "navigation",
+    ""
+  ],
+  "status": "candidate",
+  "validation": {
+    "static": "run-check-command-for-current-result",
+    "browser": "pending-after-sanitization",
+    "native": "not-tested",
+    "userVisual": "pending"
+  },
+  "distribution": {
+    "scope": "shared-candidate",
+    "projectLicense": "MIT",
+    "sourceLicenses": [
+      "MIT"
+    ],
+    "includesCustomerAssets": false
+  },
+  "files": [
+    {
+      "path": "component.html",
+      "sha256": "8431b37bd34a7ba0ea3cdda39e924b4784c46bac58df7de275d91f9c20ec133d"
+    },
+    {
+      "path": "component.css",
+      "sha256": "3203f05daa4312a968ee94d506713aab6e9f11ac213a34cda792eae0adce662b"
+    },
+    {
+      "path": "preview.html",
+      "sha256": "673831085d74946e8eed7eca5fd219a82243a066ed7142381c7ebe1f4195df35"
+    }
+  ]
+}

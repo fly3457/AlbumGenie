@@ -1,0 +1,125 @@
+{
+  "id": "I03",
+  "name": "有明确日期的时间线",
+  "category": "information",
+  "subtype": "",
+  "frameMm": [
+    178,
+    127
+  ],
+  "contentFrameMm": [
+    176,
+    125
+  ],
+  "opticalSafeInsetMm": 1,
+  "useWhen": "有可靠日期、顺序明确的发展纪实。",
+  "contentCapacity": "3–5 项；每项短标题＋最多两行说明。",
+  "slots": [
+    "titleZh",
+    "titleEn",
+    "datedItems"
+  ],
+  "geometry": {
+    "lineWidthMm": 0.45,
+    "bulletDiameterMm": 8,
+    "bulletInsetMm": 4
+  },
+  "demoData": {
+    "kind": "demo",
+    "years": [
+      2023,
+      2024,
+      2025
+    ]
+  },
+  "nativeMapping": {
+    "status": "not-tested",
+    "text": "native TextFrame/Story from complete paragraphs",
+    "geometry": "native rectangles/ellipses where supported",
+    "complexVectors": "linked SVG, vector internal path editing separate",
+    "photographs": "linked original image and native frame/crop",
+    "limits": "CSS effects and new component mapping require representative native verification"
+  },
+  "parameters": {
+    "cssVariables": [
+      "--ag-blue",
+      "--ag-deep",
+      "--ag-aqua",
+      "--ag-copper",
+      "--ag-paper",
+      "--ag-ink"
+    ],
+    "contentEdit": "Replace slot text in component.html; keep complete paragraphs. Re-render and inspect before reuse."
+  },
+  "provenanceType": "adaptation",
+  "adaptationNotes": "Timeline line, bullet and offset geometry rewritten as explicit static objects; connectors exist only between dated stages.",
+  "sourceReferences": [
+    {
+      "sourceId": "mantine",
+      "name": "Mantine",
+      "commit": "e243f7f999b3250c0babe6c6aa6dba9bcb4aa836",
+      "license": "MIT",
+      "doc": "https://mantine.dev/core/timeline/",
+      "licenseFile": "sources/mantine/LICENSE"
+    }
+  ],
+  "sampleContent": "Layout demonstration; values/copy are examples and are not inserted into client documents.",
+  "revision": 2,
+  "origin": {
+    "catalog": "local-v1",
+    "revision": 1,
+    "fragmentSha256": "c0ea6ddb496c439c48818254183b37a46c02b772e395819c521faca4edf4d635",
+    "migrationDate": "2026-10-30"
+  },
+  "migrationChanges": [
+    "customer photos replaced with original generic SVG placeholders",
+    "customer labels removed",
+    "local variable font dependency removed",
+    "historical browser/geometry validation not inherited"
+  ],
+  "selection": {
+    "languages": [
+      "zh",
+      "bilingual"
+    ],
+    "itemCount": {
+      "min": 3,
+      "max": 5
+    },
+    "itemCountMeaning": "repeated information items",
+    "widthPolicy": "Demo dimensions only; adapt and recheck real content"
+  },
+  "tags": [
+    "information",
+    ""
+  ],
+  "status": "candidate",
+  "validation": {
+    "static": "run-check-command-for-current-result",
+    "browser": "pending-after-sanitization",
+    "native": "not-tested",
+    "userVisual": "pending"
+  },
+  "distribution": {
+    "scope": "shared-candidate",
+    "projectLicense": "MIT",
+    "sourceLicenses": [
+      "MIT"
+    ],
+    "includesCustomerAssets": false
+  },
+  "files": [
+    {
+      "path": "component.html",
+      "sha256": "12b6f92afd243dcf7ab8582dd02fca1ce67796ce41addae106ee8b63736b7311"
+    },
+    {
+      "path": "component.css",
+      "sha256": "618f63a3e032fd24888effb8d46b2a4b2a21d3379fd2351c830e20e97f0c5ced"
+    },
+    {
+      "path": "preview.html",
+      "sha256": "1283eaa0ae8aa5e521dc6f1d6d175ef2f1f00ebd6aaa772817e775f9dd3bc7fa"
+    }
+  ]
+}

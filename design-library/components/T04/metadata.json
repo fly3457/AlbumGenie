@@ -1,0 +1,111 @@
+{
+  "id": "T04",
+  "name": "深色场中的双语标题",
+  "category": "titles",
+  "subtype": "",
+  "frameMm": [
+    178,
+    66
+  ],
+  "contentFrameMm": [
+    176,
+    64
+  ],
+  "opticalSafeInsetMm": 1,
+  "useWhen": "章节开启或大图旁的重点标题。",
+  "contentCapacity": "中文不超过 12 字；英文一行。",
+  "slots": [
+    "eyebrow",
+    "titleZh",
+    "titleEn"
+  ],
+  "geometry": {},
+  "demoData": null,
+  "nativeMapping": {
+    "status": "not-tested",
+    "text": "native TextFrame/Story from complete paragraphs",
+    "geometry": "native rectangles/ellipses where supported",
+    "complexVectors": "linked SVG, vector internal path editing separate",
+    "photographs": "linked original image and native frame/crop",
+    "limits": "CSS effects and new component mapping require representative native verification"
+  },
+  "parameters": {
+    "cssVariables": [
+      "--ag-blue",
+      "--ag-deep",
+      "--ag-aqua",
+      "--ag-copper",
+      "--ag-paper",
+      "--ag-ink"
+    ],
+    "contentEdit": "Replace slot text in component.html; keep complete paragraphs. Re-render and inspect before reuse."
+  },
+  "provenanceType": "adaptation",
+  "adaptationNotes": "Solid colour hierarchy and proportional type converted into a fixed print title field; geometry authored for the brochure.",
+  "sourceReferences": [
+    {
+      "sourceId": "radix",
+      "name": "Radix Themes",
+      "commit": "1faff10ac26ae17f09944d418c6949b93fc6b566",
+      "license": "MIT",
+      "doc": "https://www.radix-ui.com/themes/docs/theme/typography",
+      "licenseFile": "sources/radix/LICENSE"
+    }
+  ],
+  "sampleContent": "Layout demonstration; values/copy are examples and are not inserted into client documents.",
+  "revision": 2,
+  "origin": {
+    "catalog": "local-v1",
+    "revision": 1,
+    "fragmentSha256": "efe1f97525f18fab12e41a85b1fd06c0856cead594530eb57dd0b889c9834ec0",
+    "migrationDate": "2026-10-30"
+  },
+  "migrationChanges": [
+    "customer photos replaced with original generic SVG placeholders",
+    "customer labels removed",
+    "local variable font dependency removed",
+    "historical browser/geometry validation not inherited"
+  ],
+  "selection": {
+    "languages": [
+      "zh",
+      "bilingual"
+    ],
+    "itemCount": null,
+    "itemCountMeaning": "repeated information items",
+    "widthPolicy": "Demo dimensions only; adapt and recheck real content"
+  },
+  "tags": [
+    "titles",
+    ""
+  ],
+  "status": "candidate",
+  "validation": {
+    "static": "run-check-command-for-current-result",
+    "browser": "pending-after-sanitization",
+    "native": "not-tested",
+    "userVisual": "pending"
+  },
+  "distribution": {
+    "scope": "shared-candidate",
+    "projectLicense": "MIT",
+    "sourceLicenses": [
+      "MIT"
+    ],
+    "includesCustomerAssets": false
+  },
+  "files": [
+    {
+      "path": "component.html",
+      "sha256": "1c2410154e7b275c0b4d53795e72e757ad82e04fb5c7c3e90da434cdbc6a0c2d"
+    },
+    {
+      "path": "component.css",
+      "sha256": "03e5b234509f51350bec113036052932fc38997998c916e4a17847d7eadcdb50"
+    },
+    {
+      "path": "preview.html",
+      "sha256": "7562e70716eeab1772b08bd6a75f06903a91298b102c3a02262b9047c0164873"
+    }
+  ]
+}

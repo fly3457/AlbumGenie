@@ -1,0 +1,56 @@
+# Customer inputs, generated books, evidence and local memory (contents stay on disk).
+/input/
+/inputs/
+/output/
+/outputs/
+/validation/
+/feedback/
+/.local/
+/albums/
+
+# Legacy library contains customer photographs, reference screenshots and task logs.
+# Portable components live in design-library/components/ instead.
+/design-library/v1/
+
+# Machine-specific Nutria checkout has its own Git history and local modifications.
+# Preserve it locally; see docs/repository-layout.md before packaging the runtime.
+/tools/nutria-mcp/
+
+# Fonts are fetched from their upstream publisher on first preview use, never bundled.
+*.woff
+*.woff2
+*.ttf
+*.otf
+*.ttc
+*.otc
+*.eot
+
+# Dependencies and generated caches, at any depth.
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+dist/
+build/
+coverage/
+.cache/
+*.log
+*.idlk
+*.tmp
+*.bak
+Thumbs.db
+.DS_Store
+
+# Local configuration and credentials; sanitized examples may be committed.
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.local.json
+*.local.yaml
+*.local.yml
+.vscode/
+.idea/
+/.codex/

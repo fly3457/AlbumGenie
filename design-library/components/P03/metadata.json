@@ -1,0 +1,116 @@
+{
+  "id": "P03",
+  "name": "竖图与横图共用底线",
+  "category": "photography",
+  "subtype": "",
+  "frameMm": [
+    178,
+    124
+  ],
+  "contentFrameMm": [
+    176,
+    122
+  ],
+  "opticalSafeInsetMm": 1,
+  "useWhen": "原图横竖混合，竖向主体需要完整高度时。",
+  "contentCapacity": "1 张竖图、2 张横图；上下组距包括图注。",
+  "slots": [
+    "portrait",
+    "landscapes[2]",
+    "captions[3]"
+  ],
+  "geometry": {
+    "portraitMm": [
+      72,
+      108
+    ],
+    "portraitRatio": "2:3",
+    "landscapeMm": [
+      100,
+      50
+    ],
+    "landscapeRatio": "2:1",
+    "horizontalGapMm": 4,
+    "verticalGapIncludesCaptionMm": 8,
+    "bottomAlignedMm": 108
+  },
+  "demoData": null,
+  "nativeMapping": {
+    "status": "not-tested",
+    "text": "native TextFrame/Story from complete paragraphs",
+    "geometry": "native rectangles/ellipses where supported",
+    "complexVectors": "linked SVG, vector internal path editing separate",
+    "photographs": "linked original image and native frame/crop",
+    "limits": "CSS effects and new component mapping require representative native verification"
+  },
+  "parameters": {
+    "cssVariables": [
+      "--ag-blue",
+      "--ag-deep",
+      "--ag-aqua",
+      "--ag-copper",
+      "--ag-paper",
+      "--ag-ink"
+    ],
+    "contentEdit": "Replace slot text in component.html; keep complete paragraphs. Re-render and inspect before reuse."
+  },
+  "provenanceType": "project-original",
+  "adaptationNotes": "",
+  "sourceReferences": [],
+  "sampleContent": "Layout demonstration; values/copy are examples and are not inserted into client documents.",
+  "revision": 2,
+  "origin": {
+    "catalog": "local-v1",
+    "revision": 1,
+    "fragmentSha256": "053227f12ff10cd42b81b62a4b77757a906147c20f31cfdec5fe7a0309030491",
+    "migrationDate": "2026-10-30"
+  },
+  "migrationChanges": [
+    "customer photos replaced with original generic SVG placeholders",
+    "customer labels removed",
+    "local variable font dependency removed",
+    "historical browser/geometry validation not inherited"
+  ],
+  "selection": {
+    "languages": [
+      "zh"
+    ],
+    "itemCount": {
+      "min": 3,
+      "max": 3
+    },
+    "itemCountMeaning": "photo slots",
+    "widthPolicy": "Demo dimensions only; adapt and recheck real content"
+  },
+  "tags": [
+    "photography",
+    ""
+  ],
+  "status": "candidate",
+  "validation": {
+    "static": "run-check-command-for-current-result",
+    "browser": "pending-after-sanitization",
+    "native": "not-tested",
+    "userVisual": "pending"
+  },
+  "distribution": {
+    "scope": "shared-candidate",
+    "projectLicense": "MIT",
+    "sourceLicenses": [],
+    "includesCustomerAssets": false
+  },
+  "files": [
+    {
+      "path": "component.html",
+      "sha256": "298412e4e0b27d99c52f029d4ca9ad25cad44ad094310216793409727e8a6733"
+    },
+    {
+      "path": "component.css",
+      "sha256": "1a58b9c88e25970fae7f9980573f2ace029af7bffdafb987078a96cb1f64dd0b"
+    },
+    {
+      "path": "preview.html",
+      "sha256": "ac8d1fff4724fb411bcaf975a8f5f58e857bfc9d819d0311a00bfbe6ea5476b7"
+    }
+  ]
+}

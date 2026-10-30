@@ -1,0 +1,113 @@
+{
+  "id": "N03",
+  "name": "文字路径导航",
+  "category": "navigation",
+  "subtype": "",
+  "frameMm": [
+    178,
+    44
+  ],
+  "contentFrameMm": [
+    176,
+    42
+  ],
+  "opticalSafeInsetMm": 1,
+  "useWhen": "上级栏目和当前主题均需标明时。",
+  "contentCapacity": "路径不超过两级；每级 2–8 字。",
+  "slots": [
+    "parentSection",
+    "topic",
+    "pageNumber"
+  ],
+  "geometry": {},
+  "demoData": null,
+  "nativeMapping": {
+    "status": "not-tested",
+    "text": "native TextFrame/Story from complete paragraphs",
+    "geometry": "native rectangles/ellipses where supported",
+    "complexVectors": "linked SVG, vector internal path editing separate",
+    "photographs": "linked original image and native frame/crop",
+    "limits": "CSS effects and new component mapping require representative native verification"
+  },
+  "parameters": {
+    "cssVariables": [
+      "--ag-blue",
+      "--ag-deep",
+      "--ag-aqua",
+      "--ag-copper",
+      "--ag-paper",
+      "--ag-ink"
+    ],
+    "contentEdit": "Replace slot text in component.html; keep complete paragraphs. Re-render and inspect before reuse."
+  },
+  "provenanceType": "adaptation",
+  "adaptationNotes": "Recompose header/content separation as named editorial navigation; no interactive breadcrumbs or unlabelled numeric badges.",
+  "sourceReferences": [
+    {
+      "sourceId": "shadcn",
+      "name": "shadcn/ui",
+      "commit": "02cad61166c4c20edbc8a3f71bd720eed4c1f49b",
+      "license": "MIT",
+      "doc": "https://ui.shadcn.com/docs/components/base/card",
+      "licenseFile": "sources/shadcn/LICENSE.md"
+    }
+  ],
+  "sampleContent": "Layout demonstration; values/copy are examples and are not inserted into client documents.",
+  "revision": 2,
+  "origin": {
+    "catalog": "local-v1",
+    "revision": 1,
+    "fragmentSha256": "5d9c29b14369a6afa0021c3b481eb08061a3c3228572b10f59d034b8b6e51350",
+    "migrationDate": "2026-10-30"
+  },
+  "migrationChanges": [
+    "customer photos replaced with original generic SVG placeholders",
+    "customer labels removed",
+    "local variable font dependency removed",
+    "historical browser/geometry validation not inherited"
+  ],
+  "selection": {
+    "languages": [
+      "zh"
+    ],
+    "itemCount": {
+      "min": 2,
+      "max": 3
+    },
+    "itemCountMeaning": "repeated information items",
+    "widthPolicy": "Demo dimensions only; adapt and recheck real content"
+  },
+  "tags": [
+    "navigation",
+    ""
+  ],
+  "status": "candidate",
+  "validation": {
+    "static": "run-check-command-for-current-result",
+    "browser": "pending-after-sanitization",
+    "native": "not-tested",
+    "userVisual": "pending"
+  },
+  "distribution": {
+    "scope": "shared-candidate",
+    "projectLicense": "MIT",
+    "sourceLicenses": [
+      "MIT"
+    ],
+    "includesCustomerAssets": false
+  },
+  "files": [
+    {
+      "path": "component.html",
+      "sha256": "f4d8236c336f0a36f02fdebb6d560d594a37aff566e2d015afe473a7c575f4e9"
+    },
+    {
+      "path": "component.css",
+      "sha256": "43eef9c0d3cb6f29cf09afaf2ceb0439615b03fa59deb8cd888a9a00306082fc"
+    },
+    {
+      "path": "preview.html",
+      "sha256": "73ec926be94b0d828de6100ad5404223e0b1f3a0ca1c3928e208d903affd6c3d"
+    }
+  ]
+}

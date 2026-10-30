@@ -1,0 +1,114 @@
+{
+  "id": "T02",
+  "name": "淡字背景＋前景标题",
+  "category": "titles",
+  "subtype": "",
+  "frameMm": [
+    178,
+    86
+  ],
+  "contentFrameMm": [
+    176,
+    84
+  ],
+  "opticalSafeInsetMm": 1,
+  "useWhen": "短主题需要字面记忆点；背景字来自主题本身。",
+  "contentCapacity": "背景关键词 2 字；主标题 4–10 字。",
+  "slots": [
+    "backgroundKeyword",
+    "eyebrow",
+    "titleZh",
+    "titleEn"
+  ],
+  "geometry": {
+    "intentionalDecorativeLayer": true
+  },
+  "demoData": null,
+  "nativeMapping": {
+    "status": "not-tested",
+    "text": "native TextFrame/Story from complete paragraphs",
+    "geometry": "native rectangles/ellipses where supported",
+    "complexVectors": "linked SVG, vector internal path editing separate",
+    "photographs": "linked original image and native frame/crop",
+    "limits": "CSS effects and new component mapping require representative native verification"
+  },
+  "parameters": {
+    "cssVariables": [
+      "--ag-blue",
+      "--ag-deep",
+      "--ag-aqua",
+      "--ag-copper",
+      "--ag-paper",
+      "--ag-ink"
+    ],
+    "contentEdit": "Replace slot text in component.html; keep complete paragraphs. Re-render and inspect before reuse."
+  },
+  "provenanceType": "adaptation",
+  "adaptationNotes": "Type scale translated into an editable decorative keyword and a clear foreground title. Composition is project original.",
+  "sourceReferences": [
+    {
+      "sourceId": "radix",
+      "name": "Radix Themes",
+      "commit": "1faff10ac26ae17f09944d418c6949b93fc6b566",
+      "license": "MIT",
+      "doc": "https://www.radix-ui.com/themes/docs/theme/typography",
+      "licenseFile": "sources/radix/LICENSE"
+    }
+  ],
+  "sampleContent": "Layout demonstration; values/copy are examples and are not inserted into client documents.",
+  "revision": 2,
+  "origin": {
+    "catalog": "local-v1",
+    "revision": 1,
+    "fragmentSha256": "916d7138aee04fcf078bedb0ff4f4b0ffdce1e0712d45ca15ec42a830bc8e972",
+    "migrationDate": "2026-10-30"
+  },
+  "migrationChanges": [
+    "customer photos replaced with original generic SVG placeholders",
+    "customer labels removed",
+    "local variable font dependency removed",
+    "historical browser/geometry validation not inherited"
+  ],
+  "selection": {
+    "languages": [
+      "zh",
+      "bilingual"
+    ],
+    "itemCount": null,
+    "itemCountMeaning": "repeated information items",
+    "widthPolicy": "Demo dimensions only; adapt and recheck real content"
+  },
+  "tags": [
+    "titles",
+    ""
+  ],
+  "status": "candidate",
+  "validation": {
+    "static": "run-check-command-for-current-result",
+    "browser": "pending-after-sanitization",
+    "native": "not-tested",
+    "userVisual": "pending"
+  },
+  "distribution": {
+    "scope": "shared-candidate",
+    "projectLicense": "MIT",
+    "sourceLicenses": [
+      "MIT"
+    ],
+    "includesCustomerAssets": false
+  },
+  "files": [
+    {
+      "path": "component.html",
+      "sha256": "321e708c16c205f46ead8e969dee4b520256ad803313b482033f8e27f3db2e76"
+    },
+    {
+      "path": "component.css",
+      "sha256": "1ebc9510c50aa6a36eb78ab0a59391faee56bccd04b41cbe556eb118c391fad2"
+    },
+    {
+      "path": "preview.html",
+      "sha256": "78188549508a7b1668c7098b0a3c551aa728f66de4396f32bd8abd67acd1465c"
+    }
+  ]
+}

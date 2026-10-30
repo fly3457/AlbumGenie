@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "family": "Dream Han Sans SC",
+  "version": "3.01 / Sans 2.004",
+  "source": {
+    "repository": "https://github.com/Pal3love/dream-han-cjk",
+    "commit": "295544c8dceeb4ab4eb007a30168252da2971aae",
+    "releaseTag": "dream-3.01-sans-2.004-serif-2.002",
+    "archiveUrl": "https://github.com/Pal3love/dream-han-cjk/releases/download/dream-3.01-sans-2.004-serif-2.002/DreamHanSans.zip",
+    "archiveBytes": 394830478,
+    "licenseUrl": "https://raw.githubusercontent.com/Pal3love/dream-han-cjk/295544c8dceeb4ab4eb007a30168252da2971aae/LICENSE.txt",
+    "licenseFile": "DreamHanSans-OFL.txt",
+    "licenseSha256": "3b9d9d42393580f6c66c60b17910b1f7aa95a1470261b6b8ba768039983be653"
+  },
+  "fonts": [
+    {
+      "id": "W8",
+      "file": "DreamHanSansSC-W8.ttf",
+      "postscriptName": "DreamHanSansSC-W8",
+      "bytes": 23293528,
+      "sha256": "809955b4acf787e714eb51454649b3bafb1ba235f251577a37b2b231dfb49459",
+      "sourceMember": "DreamHanSans-W8.ttc",
+      "sourceBytes": 25105952,
+      "sourceSha256": "9aa27e78f8f99378556f7b7b3cf13cf1a7c52946833974e2c181fa1076282b8f",
+      "download": {
+        "rangeStart": 365643394,
+        "rangeEnd": 380220886,
+        "bytes": 14577493,
+        "sha256": "2ca9e4ee11ba200e9cf377591c7a9750fd0a9d28b7bc2b3c6ab3732bb8b5c9e0"
+      }
+    },
+    {
+      "id": "W12",
+      "file": "DreamHanSansSC-W12.ttf",
+      "postscriptName": "DreamHanSansSC-W12",
+      "bytes": 23176228,
+      "sha256": "03c01fad2e1909c64fb86eb69c96cefd917d6e3ad0cc31bf9e43b96a50ba82be",
+      "sourceMember": "DreamHanSans-W12.ttc",
+      "sourceBytes": 24988716,
+      "sourceSha256": "b6da5e1fc7a136338710aaa751cf878c8688aca286fe551a7928397871064c15",
+      "download": {
+        "rangeStart": 29266215,
+        "rangeEnd": 43939029,
+        "bytes": 14672815,
+        "sha256": "b66876d8d56ee8891da23c4fa46d6eebc55648f494df17f358fe9c0dc29b4f29"
+      }
+    }
+  ]
+}

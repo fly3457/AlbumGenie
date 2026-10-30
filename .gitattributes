@@ -1,0 +1,16 @@
+* text=auto eol=lf
+
+# Source evidence must keep the exact bytes covered by sources/manifest.json.
+/design-library/sources/** -text
+/design-library/sources/manifest.json text eol=lf
+
+*.woff -text
+*.woff2 -text
+*.ttf -text
+*.otf -text
+*.ttc -text
+*.png -text
+*.jpg -text
+*.jpeg -text
+*.pdf -text
+*.zip -text

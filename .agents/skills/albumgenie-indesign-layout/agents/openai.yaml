@@ -1,0 +1,4 @@
+interface:
+  display_name: "画册排版 · InDesign"
+  short_description: "本地 InDesign 画册排版：原生文字、IDML 往返与印刷 PDF 验证"
+  default_prompt: "使用 $albumgenie-indesign-layout 制作本地 InDesign 画册：先确认用途、风格、配色、语种及中文画册的英文装饰范围，汇总排版方向供我确认后，再通过 Nutria MCP 实施并验证原生文字、IDML 往返和 PDF 交付。"

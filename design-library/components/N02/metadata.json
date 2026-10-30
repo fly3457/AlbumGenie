@@ -1,0 +1,111 @@
+{
+  "id": "N02",
+  "name": "短边标识＋页脚字面",
+  "category": "navigation",
+  "subtype": "",
+  "frameMm": [
+    178,
+    60
+  ],
+  "contentFrameMm": [
+    176,
+    58
+  ],
+  "opticalSafeInsetMm": 1,
+  "useWhen": "带章节识别的内页，页眉不需要章号时。",
+  "contentCapacity": "栏目名 2–8 字，页码 1–3 位。",
+  "slots": [
+    "sectionZh",
+    "sectionEn",
+    "pageNumber"
+  ],
+  "geometry": {},
+  "demoData": null,
+  "nativeMapping": {
+    "status": "not-tested",
+    "text": "native TextFrame/Story from complete paragraphs",
+    "geometry": "native rectangles/ellipses where supported",
+    "complexVectors": "linked SVG, vector internal path editing separate",
+    "photographs": "linked original image and native frame/crop",
+    "limits": "CSS effects and new component mapping require representative native verification"
+  },
+  "parameters": {
+    "cssVariables": [
+      "--ag-blue",
+      "--ag-deep",
+      "--ag-aqua",
+      "--ag-copper",
+      "--ag-paper",
+      "--ag-ink"
+    ],
+    "contentEdit": "Replace slot text in component.html; keep complete paragraphs. Re-render and inspect before reuse."
+  },
+  "provenanceType": "adaptation",
+  "adaptationNotes": "Use clear label and typographic scale, separate section identification and page folio.",
+  "sourceReferences": [
+    {
+      "sourceId": "radix",
+      "name": "Radix Themes",
+      "commit": "1faff10ac26ae17f09944d418c6949b93fc6b566",
+      "license": "MIT",
+      "doc": "https://www.radix-ui.com/themes/docs/theme/typography",
+      "licenseFile": "sources/radix/LICENSE"
+    }
+  ],
+  "sampleContent": "Layout demonstration; values/copy are examples and are not inserted into client documents.",
+  "revision": 2,
+  "origin": {
+    "catalog": "local-v1",
+    "revision": 1,
+    "fragmentSha256": "3f51e626299bee179d5114037a7a203a9716eda0651ddb3048eaa5c938f8fcc8",
+    "migrationDate": "2026-10-30"
+  },
+  "migrationChanges": [
+    "customer photos replaced with original generic SVG placeholders",
+    "customer labels removed",
+    "local variable font dependency removed",
+    "historical browser/geometry validation not inherited"
+  ],
+  "selection": {
+    "languages": [
+      "zh",
+      "bilingual"
+    ],
+    "itemCount": null,
+    "itemCountMeaning": "repeated information items",
+    "widthPolicy": "Demo dimensions only; adapt and recheck real content"
+  },
+  "tags": [
+    "navigation",
+    ""
+  ],
+  "status": "candidate",
+  "validation": {
+    "static": "run-check-command-for-current-result",
+    "browser": "pending-after-sanitization",
+    "native": "not-tested",
+    "userVisual": "pending"
+  },
+  "distribution": {
+    "scope": "shared-candidate",
+    "projectLicense": "MIT",
+    "sourceLicenses": [
+      "MIT"
+    ],
+    "includesCustomerAssets": false
+  },
+  "files": [
+    {
+      "path": "component.html",
+      "sha256": "6686996fb8754ef8df06fb9b34e29552565c7574c5ebe68420bb0760d340f16d"
+    },
+    {
+      "path": "component.css",
+      "sha256": "d2498d78f88c4755fb6f3ea09d5a0eddaa06c0454c80b740181a93a54a6634ff"
+    },
+    {
+      "path": "preview.html",
+      "sha256": "ac7a780ae91a31ef904641721ec56adcd893acd28508239c004e5681d2c078a9"
+    }
+  ]
+}

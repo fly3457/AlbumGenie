@@ -1,0 +1,109 @@
+{
+  "id": "I04",
+  "name": "引语与来源整体",
+  "category": "information",
+  "subtype": "",
+  "frameMm": [
+    178,
+    80
+  ],
+  "contentFrameMm": [
+    176,
+    78
+  ],
+  "opticalSafeInsetMm": 1,
+  "useWhen": "客户提供的短引语、宗旨或关键原句。",
+  "contentCapacity": "中文 12–30 字，来源一行。须保持原句及来源。",
+  "slots": [
+    "quote",
+    "attribution"
+  ],
+  "geometry": {},
+  "demoData": null,
+  "nativeMapping": {
+    "status": "not-tested",
+    "text": "native TextFrame/Story from complete paragraphs",
+    "geometry": "native rectangles/ellipses where supported",
+    "complexVectors": "linked SVG, vector internal path editing separate",
+    "photographs": "linked original image and native frame/crop",
+    "limits": "CSS effects and new component mapping require representative native verification"
+  },
+  "parameters": {
+    "cssVariables": [
+      "--ag-blue",
+      "--ag-deep",
+      "--ag-aqua",
+      "--ag-copper",
+      "--ag-paper",
+      "--ag-ink"
+    ],
+    "contentEdit": "Replace slot text in component.html; keep complete paragraphs. Re-render and inspect before reuse."
+  },
+  "provenanceType": "adaptation",
+  "adaptationNotes": "Quote/strong hierarchy adapted for an editable editorial pull quote and explicit attribution.",
+  "sourceReferences": [
+    {
+      "sourceId": "radix",
+      "name": "Radix Themes",
+      "commit": "1faff10ac26ae17f09944d418c6949b93fc6b566",
+      "license": "MIT",
+      "doc": "https://www.radix-ui.com/themes/docs/theme/typography",
+      "licenseFile": "sources/radix/LICENSE"
+    }
+  ],
+  "sampleContent": "Layout demonstration; values/copy are examples and are not inserted into client documents.",
+  "revision": 2,
+  "origin": {
+    "catalog": "local-v1",
+    "revision": 1,
+    "fragmentSha256": "14ae67f132f3516d1a7c820b7512e7720826b187f22b4eca89dfd9d15c15128a",
+    "migrationDate": "2026-10-30"
+  },
+  "migrationChanges": [
+    "customer photos replaced with original generic SVG placeholders",
+    "customer labels removed",
+    "local variable font dependency removed",
+    "historical browser/geometry validation not inherited"
+  ],
+  "selection": {
+    "languages": [
+      "zh"
+    ],
+    "itemCount": null,
+    "itemCountMeaning": "repeated information items",
+    "widthPolicy": "Demo dimensions only; adapt and recheck real content"
+  },
+  "tags": [
+    "information",
+    ""
+  ],
+  "status": "candidate",
+  "validation": {
+    "static": "run-check-command-for-current-result",
+    "browser": "pending-after-sanitization",
+    "native": "not-tested",
+    "userVisual": "pending"
+  },
+  "distribution": {
+    "scope": "shared-candidate",
+    "projectLicense": "MIT",
+    "sourceLicenses": [
+      "MIT"
+    ],
+    "includesCustomerAssets": false
+  },
+  "files": [
+    {
+      "path": "component.html",
+      "sha256": "b1c08fe3bf5458841546b6e35b566e15f68ecb2097fdcaf435bba922c6e3495b"
+    },
+    {
+      "path": "component.css",
+      "sha256": "e91fe8ab64a4fcb3c550b5950e8db44799474d1e5f519fb02d81d37223b1b679"
+    },
+    {
+      "path": "preview.html",
+      "sha256": "7732fa0725ce74079bc53475ae3ae7b9ec8acfe84216205c7f45051dc9c089f2"
+    }
+  ]
+}

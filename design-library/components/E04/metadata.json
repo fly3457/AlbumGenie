@@ -1,0 +1,113 @@
+{
+  "id": "E04",
+  "name": "缩写字面＋重点概念",
+  "category": "emphasis",
+  "subtype": "",
+  "frameMm": [
+    178,
+    96
+  ],
+  "contentFrameMm": [
+    176,
+    94
+  ],
+  "opticalSafeInsetMm": 1,
+  "useWhen": "一个简短概念需要形成记忆点，并有明确说明。",
+  "contentCapacity": "缩写 2–4 字符，中文 4–8 字。",
+  "slots": [
+    "keyword",
+    "keywordExpansion",
+    "titleZh",
+    "titleEn",
+    "supportLine"
+  ],
+  "geometry": {},
+  "demoData": null,
+  "nativeMapping": {
+    "status": "not-tested",
+    "text": "native TextFrame/Story from complete paragraphs",
+    "geometry": "native rectangles/ellipses where supported",
+    "complexVectors": "linked SVG, vector internal path editing separate",
+    "photographs": "linked original image and native frame/crop",
+    "limits": "CSS effects and new component mapping require representative native verification"
+  },
+  "parameters": {
+    "cssVariables": [
+      "--ag-blue",
+      "--ag-deep",
+      "--ag-aqua",
+      "--ag-copper",
+      "--ag-paper",
+      "--ag-ink"
+    ],
+    "contentEdit": "Replace slot text in component.html; keep complete paragraphs. Re-render and inspect before reuse."
+  },
+  "provenanceType": "adaptation",
+  "adaptationNotes": "Type hierarchy and solid colour surface adapted into a keyword anchor; the composition and abbreviation treatment are project authored.",
+  "sourceReferences": [
+    {
+      "sourceId": "radix",
+      "name": "Radix Themes",
+      "commit": "1faff10ac26ae17f09944d418c6949b93fc6b566",
+      "license": "MIT",
+      "doc": "https://www.radix-ui.com/themes/docs/theme/typography",
+      "licenseFile": "sources/radix/LICENSE"
+    }
+  ],
+  "sampleContent": "Layout demonstration; values/copy are examples and are not inserted into client documents.",
+  "revision": 2,
+  "origin": {
+    "catalog": "local-v1",
+    "revision": 1,
+    "fragmentSha256": "aace76efedb1336553ddbd3d234a1fa9b689afaf354106e0341717bad2983b99",
+    "migrationDate": "2026-10-30"
+  },
+  "migrationChanges": [
+    "customer photos replaced with original generic SVG placeholders",
+    "customer labels removed",
+    "local variable font dependency removed",
+    "historical browser/geometry validation not inherited"
+  ],
+  "selection": {
+    "languages": [
+      "zh",
+      "bilingual"
+    ],
+    "itemCount": null,
+    "itemCountMeaning": "repeated information items",
+    "widthPolicy": "Demo dimensions only; adapt and recheck real content"
+  },
+  "tags": [
+    "emphasis",
+    ""
+  ],
+  "status": "candidate",
+  "validation": {
+    "static": "run-check-command-for-current-result",
+    "browser": "pending-after-sanitization",
+    "native": "not-tested",
+    "userVisual": "pending"
+  },
+  "distribution": {
+    "scope": "shared-candidate",
+    "projectLicense": "MIT",
+    "sourceLicenses": [
+      "MIT"
+    ],
+    "includesCustomerAssets": false
+  },
+  "files": [
+    {
+      "path": "component.html",
+      "sha256": "39a83d6c0ddd8adc47ca7e3f84d52ef9978020bb0aea430a0735c9458b771209"
+    },
+    {
+      "path": "component.css",
+      "sha256": "947a7335bd9e62b35b58682d5242b578299d9a0f36997f2dd47a9fbef0cadbc9"
+    },
+    {
+      "path": "preview.html",
+      "sha256": "14621fb4538c490bf60d78bef5a1d167245e9482f2c50dadcc0a58c57a58ea93"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": "D03",
+  "name": "三要素交集关系",
+  "category": "diagrams",
+  "subtype": "concept-relation",
+  "frameMm": [
+    178,
+    133
+  ],
+  "contentFrameMm": [
+    176,
+    131
+  ],
+  "opticalSafeInsetMm": 1,
+  "useWhen": "三个概念的共同作用或交集有明确文字依据。",
+  "contentCapacity": "三个短概念，各 2–4 字；不是比例图。",
+  "slots": [
+    "conceptA",
+    "conceptB",
+    "conceptC",
+    "intersection",
+    "explanation"
+  ],
+  "geometry": {
+    "representsQuantity": false,
+    "meaning": "three concepts intersect"
+  },
+  "demoData": null,
+  "nativeMapping": {
+    "status": "not-tested",
+    "text": "native TextFrame/Story from complete paragraphs",
+    "geometry": "native rectangles/ellipses where supported",
+    "complexVectors": "linked SVG, vector internal path editing separate",
+    "photographs": "linked original image and native frame/crop",
+    "limits": "CSS effects and new component mapping require representative native verification"
+  },
+  "parameters": {
+    "cssVariables": [
+      "--ag-blue",
+      "--ag-deep",
+      "--ag-aqua",
+      "--ag-copper",
+      "--ag-paper",
+      "--ag-ink"
+    ],
+    "contentEdit": "Replace slot text in component.html; keep complete paragraphs. Re-render and inspect before reuse."
+  },
+  "provenanceType": "project-original",
+  "adaptationNotes": "",
+  "sourceReferences": [],
+  "sampleContent": "Layout demonstration; values/copy are examples and are not inserted into client documents.",
+  "revision": 2,
+  "origin": {
+    "catalog": "local-v1",
+    "revision": 1,
+    "fragmentSha256": "529d33063eab95519656c46e17a48449a081395bddbf7f3dbfd0a1032a65e3e7",
+    "migrationDate": "2026-10-30"
+  },
+  "migrationChanges": [
+    "customer photos replaced with original generic SVG placeholders",
+    "customer labels removed",
+    "local variable font dependency removed",
+    "historical browser/geometry validation not inherited"
+  ],
+  "selection": {
+    "languages": [
+      "zh"
+    ],
+    "itemCount": {
+      "min": 3,
+      "max": 3
+    },
+    "itemCountMeaning": "repeated information items",
+    "widthPolicy": "Demo dimensions only; adapt and recheck real content"
+  },
+  "tags": [
+    "diagrams",
+    "concept-relation"
+  ],
+  "status": "candidate",
+  "validation": {
+    "static": "run-check-command-for-current-result",
+    "browser": "pending-after-sanitization",
+    "native": "not-tested",
+    "userVisual": "pending"
+  },
+  "distribution": {
+    "scope": "shared-candidate",
+    "projectLicense": "MIT",
+    "sourceLicenses": [],
+    "includesCustomerAssets": false
+  },
+  "files": [
+    {
+      "path": "component.html",
+      "sha256": "6ea10f6e8554297f295c4ae30664e7d13dfc4f2f6e9a85d11e76c13a1487343f"
+    },
+    {
+      "path": "component.css",
+      "sha256": "54bf0d968299b007f6aa3af6f0ad536a36c005efc44b4a9567bfff0e45a7bc41"
+    },
+    {
+      "path": "preview.html",
+      "sha256": "9e144e84feec466ccf2e7021b674b2dc97d1c18540761ddbf807c2b9d03d1fdf"
+    }
+  ]
+}
